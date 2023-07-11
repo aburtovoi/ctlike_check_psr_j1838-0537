@@ -5,7 +5,7 @@ vold3 (35 free pars):
 - spectra:
   - field-of-view sources are free
   - out of field-of-view sources are fixed
-- pulsar model is included
+- pulsar model is included (Src006)
 
 vold4 (12 free pars): 
 - position is fixed for all the sources
