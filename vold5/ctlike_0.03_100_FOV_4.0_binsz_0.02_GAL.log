@@ -1,0 +1,991 @@
+2023-07-12T07:44:34: ********************************************************************************
+2023-07-12T07:44:34: *                                    ctlike                                    *
+2023-07-12T07:44:34: * ---------------------------------------------------------------------------- *
+2023-07-12T07:44:34: * Version: 1.7.4                                                               *
+2023-07-12T07:44:34: ********************************************************************************
+2023-07-12T07:44:35: +============+
+2023-07-12T07:44:35: | Parameters |
+2023-07-12T07:44:35: +============+
+2023-07-12T07:44:35:  inobs .....................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/cntcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2023-07-12T07:44:35:  inmodel ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/bkgcube_0.03_100_FOV_4.0_binsz_0.02_GAL_tscalc.xml
+2023-07-12T07:44:35:  expcube ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/expcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2023-07-12T07:44:35:  psfcube ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/psfcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2023-07-12T07:44:35:  edispcube .................: [not queried]
+2023-07-12T07:44:35:  bkgcube ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/bkgcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2023-07-12T07:44:35:  caldb .....................: [not queried]
+2023-07-12T07:44:35:  irf .......................: [not queried]
+2023-07-12T07:44:35:  edisp .....................: no
+2023-07-12T07:44:35:  outmodel ..................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/ctlike_outmodel_0.03_100_FOV_4.0_binsz_0.02_GAL.xml
+2023-07-12T07:44:35:  outcovmat .................: NONE
+2023-07-12T07:44:35:  statistic .................: DEFAULT
+2023-07-12T07:44:35:  refit .....................: no
+2023-07-12T07:44:35:  like_accuracy .............: 0.005
+2023-07-12T07:44:35:  max_iter ..................: 50
+2023-07-12T07:44:35:  fix_spat_for_ts ...........: no
+2023-07-12T07:44:35:  nthreads ..................: 0
+2023-07-12T07:44:35:  chatter ...................: 2
+2023-07-12T07:44:35:  clobber ...................: yes
+2023-07-12T07:44:35:  debug .....................: no
+2023-07-12T07:44:35:  mode ......................: ql
+2023-07-12T07:44:35:  logfile ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/ctlike_0.03_100_FOV_4.0_binsz_0.02_GAL.log
+2023-07-12T07:44:35: 
+2023-07-12T07:44:35: WARNING: Energy dispersion will *NOT* be considered for the computation. To consider
+2023-07-12T07:44:35:          energy dispersion, please set the "edisp" parameter to "yes". Be aware that
+2023-07-12T07:44:35:          using energy dispersion will considerably slow down the computations.
+2023-07-12T07:44:35: 
+2023-07-12T07:44:35: +===================+
+2023-07-12T07:44:35: | Input observation |
+2023-07-12T07:44:35: +===================+
+2023-07-12T07:44:35: === GObservations ===
+2023-07-12T07:44:35:  Number of observations ....: 1
+2023-07-12T07:44:35:  Number of models ..........: 16
+2023-07-12T07:44:35:  Number of observed events .: 4520696
+2023-07-12T07:44:35:  Number of predicted events : 0
+2023-07-12T07:44:35: 
+2023-07-12T07:44:35: +=================================+
+2023-07-12T07:44:35: | Maximum likelihood optimisation |
+2023-07-12T07:44:35: +=================================+
+2023-07-12T08:28:41:  >Iteration   0: -logL=-2172186.039, Lambda=1.0e-03
+2023-07-12T08:28:41:    Parameter "Prefactor" drives optimization step (step=0.764716)
+2023-07-12T08:30:01:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T08:30:01:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T08:30:01:  >Iteration   1: -logL=-2180620.548, Lambda=1.0e-03, delta=8434.509, step=7.6e-01, max(|grad|)=351543.287057 [Curvature:96]
+2023-07-12T08:30:01:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T08:31:22:  >Iteration   2: -logL=-2185713.419, Lambda=1.0e-04, delta=5092.871, step=1.0e+00, max(|grad|)=30843.811657 [Curvature:96]
+2023-07-12T08:31:22:    Parameter "Prefactor" drives optimization step (step=0.44693)
+2023-07-12T08:32:42:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T08:32:42:   Iteration   3: -logL=-2185713.419, Lambda=1.0e-05, delta=-525.043, step=4.5e-01, max(|grad|)=27352.023387 [Curvature:96] (stalled)
+2023-07-12T08:32:42:    Parameter "Prefactor" hits minimum: -0.202574 < 0 (1)
+2023-07-12T08:34:02:   Iteration   4: -logL=-2185713.419, Lambda=1.0e-04, delta=-514.858, step=1.0e+00, max(|grad|)=36207.840653 [Index:111] (stalled)
+2023-07-12T08:34:02:    Parameter "Prefactor" hits minimum: -0.194022 < 0 (2)
+2023-07-12T08:35:03:   Iteration   5: -logL=-2185713.419, Lambda=1.0e-03, delta=-514.958, step=1.0e+00, max(|grad|)=36085.014743 [Index:111] (stalled)
+2023-07-12T08:35:03:    Parameter "Prefactor" hits minimum: -0.125989 < 0 (3)
+2023-07-12T08:36:23:   Iteration   6: -logL=-2185713.419, Lambda=1.0e-02, delta=-516.875, step=1.0e+00, max(|grad|)=35119.773788 [Index:111] (stalled)
+2023-07-12T08:36:23:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T08:37:43:   Iteration   7: -logL=-2185713.419, Lambda=1.0e-01, delta=-158.538, step=1.0e+00, max(|grad|)=19401.126796 [Index:111] (stalled)
+2023-07-12T08:39:03:  >Iteration   8: -logL=-2185745.949, Lambda=1.0e+00, delta=32.530, step=1.0e+00, max(|grad|)=9414.339746 [Curvature:96]
+2023-07-12T08:40:23:  >Iteration   9: -logL=-2185753.026, Lambda=1.0e-01, delta=7.077, step=1.0e+00, max(|grad|)=1034.510964 [Curvature:96]
+2023-07-12T08:41:43:  >Iteration  10: -logL=-2185753.819, Lambda=1.0e-02, delta=0.793, step=1.0e+00, max(|grad|)=146.707733 [Curvature:96]
+2023-07-12T08:43:03:  >Iteration  11: -logL=-2185753.843, Lambda=1.0e-03, delta=0.024, step=1.0e+00, max(|grad|)=9.593559 [Curvature:96]
+2023-07-12T08:44:22:  >Iteration  12: -logL=-2185753.843, Lambda=1.0e-04, delta=0.000, step=1.0e+00, max(|grad|)=0.182000 [Curvature:96]
+2023-07-12T08:44:22:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T08:44:22:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T08:44:22:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T08:45:43: 
+2023-07-12T08:45:43: +====================================+
+2023-07-12T08:45:43: | Maximum likelihood re-optimisation |
+2023-07-12T08:45:43: +====================================+
+2023-07-12T08:46:59:  >Iteration   0: -logL=-2185737.800, Lambda=1.0e-03
+2023-07-12T08:46:59:    Parameter "Prefactor" drives optimization step (step=0.311404)
+2023-07-12T08:48:15:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T08:48:15:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T08:48:15:   Iteration   1: -logL=-2185737.800, Lambda=1.0e-03, delta=-448.409, step=3.1e-01, max(|grad|)=81023.279123 [Curvature:88] (stalled)
+2023-07-12T08:48:15:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T08:48:15:    Parameter "Prefactor" drives optimization step (step=0.571532)
+2023-07-12T08:48:15:    Parameter "Prefactor" hits minimum: -2.77556e-17 < 0 (1)
+2023-07-12T08:49:30:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T08:49:30:   Iteration   2: -logL=-2185737.800, Lambda=1.0e-02, delta=-620.219, step=5.7e-01, max(|grad|)=34093.556069 [Index:103] (stalled)
+2023-07-12T08:49:30:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T08:50:46:   Iteration   3: -logL=-2185737.800, Lambda=1.0e-01, delta=-201.775, step=1.0e+00, max(|grad|)=20076.966117 [Index:103] (stalled)
+2023-07-12T08:51:21:   Iteration   4: -logL=-2185735.804, Lambda=1.0e+00, delta=-1.996, step=1.0e+00, max(|grad|)=3057.773346 [Index:103] (stalled)
+2023-07-12T08:51:43:  >Iteration   5: -logL=-2185736.297, Lambda=1.0e+01, delta=0.493, step=1.0e+00, max(|grad|)=2367.514231 [Index:103]
+2023-07-12T08:52:58:  >Iteration   6: -logL=-2185737.495, Lambda=1.0e+00, delta=1.198, step=1.0e+00, max(|grad|)=523.710428 [Index:103]
+2023-07-12T08:54:14:  >Iteration   7: -logL=-2185737.817, Lambda=1.0e-01, delta=0.322, step=1.0e+00, max(|grad|)=-52.855832 [Curvature:88]
+2023-07-12T08:55:29:  >Iteration   8: -logL=-2185737.822, Lambda=1.0e-02, delta=0.004, step=1.0e+00, max(|grad|)=-4.215622 [Curvature:88]
+2023-07-12T08:55:29:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T08:55:29:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T08:55:29:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T08:55:29: 
+2023-07-12T08:55:29: +============================================+
+2023-07-12T08:55:29: | Maximum likelihood re-optimisation results |
+2023-07-12T08:55:29: +============================================+
+2023-07-12T08:55:29: === GOptimizerLM ===
+2023-07-12T08:55:29:  Optimized function value ..: -2185737.822
+2023-07-12T08:55:29:  Absolute precision ........: 0.005
+2023-07-12T08:55:29:  Acceptable value decrease .: 2
+2023-07-12T08:55:29:  Optimization status .......: converged
+2023-07-12T08:55:29:  Number of parameters ......: 106
+2023-07-12T08:55:29:  Number of free parameters .: 18
+2023-07-12T08:55:29:  Number of iterations ......: 8
+2023-07-12T08:55:29:  Lambda ....................: 0.001
+2023-07-12T08:55:29: 
+2023-07-12T08:55:29: +====================================+
+2023-07-12T08:55:29: | Maximum likelihood re-optimisation |
+2023-07-12T08:55:29: +====================================+
+2023-07-12T08:56:45:  >Iteration   0: -logL=-2184580.648, Lambda=1.0e-03
+2023-07-12T08:56:45:    Parameter "Prefactor" drives optimization step (step=0.314758)
+2023-07-12T08:58:01:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T08:58:01:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T08:58:01:   Iteration   1: -logL=-2184580.648, Lambda=1.0e-03, delta=-451.955, step=3.1e-01, max(|grad|)=81080.122419 [Curvature:88] (stalled)
+2023-07-12T08:58:01:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T08:58:01:    Parameter "Prefactor" drives optimization step (step=0.559697)
+2023-07-12T08:59:17:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T08:59:17:   Iteration   2: -logL=-2184580.648, Lambda=1.0e-02, delta=-593.973, step=5.6e-01, max(|grad|)=39189.833173 [Index:103] (stalled)
+2023-07-12T08:59:17:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:00:33:   Iteration   3: -logL=-2184580.648, Lambda=1.0e-01, delta=-185.988, step=1.0e+00, max(|grad|)=18931.022512 [Index:103] (stalled)
+2023-07-12T09:01:48:  >Iteration   4: -logL=-2184585.714, Lambda=1.0e+00, delta=5.066, step=1.0e+00, max(|grad|)=5581.422606 [Index:103]
+2023-07-12T09:03:04:  >Iteration   5: -logL=-2184592.602, Lambda=1.0e-01, delta=6.888, step=1.0e+00, max(|grad|)=-1414.849329 [Index:103]
+2023-07-12T09:04:19:  >Iteration   6: -logL=-2184595.013, Lambda=1.0e-02, delta=2.412, step=1.0e+00, max(|grad|)=-239.130767 [Index:103]
+2023-07-12T09:05:35:  >Iteration   7: -logL=-2184595.064, Lambda=1.0e-03, delta=0.051, step=1.0e+00, max(|grad|)=-7.731726 [Index:103]
+2023-07-12T09:06:50:  >Iteration   8: -logL=-2184595.064, Lambda=1.0e-04, delta=0.000, step=1.0e+00, max(|grad|)=-0.124877 [Index:103]
+2023-07-12T09:06:50:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:06:50:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:06:50:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T09:06:50: 
+2023-07-12T09:06:50: +============================================+
+2023-07-12T09:06:50: | Maximum likelihood re-optimisation results |
+2023-07-12T09:06:50: +============================================+
+2023-07-12T09:06:50: === GOptimizerLM ===
+2023-07-12T09:06:50:  Optimized function value ..: -2184595.064
+2023-07-12T09:06:50:  Absolute precision ........: 0.005
+2023-07-12T09:06:50:  Acceptable value decrease .: 2
+2023-07-12T09:06:50:  Optimization status .......: converged
+2023-07-12T09:06:50:  Number of parameters ......: 106
+2023-07-12T09:06:50:  Number of free parameters .: 18
+2023-07-12T09:06:50:  Number of iterations ......: 8
+2023-07-12T09:06:50:  Lambda ....................: 1e-05
+2023-07-12T09:06:50: 
+2023-07-12T09:06:50: +====================================+
+2023-07-12T09:06:50: | Maximum likelihood re-optimisation |
+2023-07-12T09:06:50: +====================================+
+2023-07-12T09:08:07:  >Iteration   0: -logL=-2165191.699, Lambda=1.0e-03
+2023-07-12T09:08:07:    Parameter "Prefactor" drives optimization step (step=0.319331)
+2023-07-12T09:09:22:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:09:22:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T09:09:22:   Iteration   1: -logL=-2165191.699, Lambda=1.0e-03, delta=-427.784, step=3.2e-01, max(|grad|)=81359.521325 [Curvature:88] (stalled)
+2023-07-12T09:09:22:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:09:22:    Parameter "Prefactor" drives optimization step (step=0.534425)
+2023-07-12T09:09:22:    Parameter "Prefactor" hits minimum: -2.77556e-17 < 0 (1)
+2023-07-12T09:10:38:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:10:38:   Iteration   2: -logL=-2165191.699, Lambda=1.0e-02, delta=-500.908, step=5.3e-01, max(|grad|)=45348.197283 [Index:103] (stalled)
+2023-07-12T09:10:38:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:11:02:   Iteration   3: -logL=-2165191.699, Lambda=1.0e-01, delta=-111.149, step=1.0e+00, max(|grad|)=16038.136081 [Index:103] (stalled)
+2023-07-12T09:12:18:  >Iteration   4: -logL=-2165229.384, Lambda=1.0e+00, delta=37.686, step=1.0e+00, max(|grad|)=-10388.589028 [Prefactor:102]
+2023-07-12T09:13:33:  >Iteration   5: -logL=-2165279.800, Lambda=1.0e-01, delta=50.416, step=1.0e+00, max(|grad|)=-4955.842993 [Index:103]
+2023-07-12T09:14:49:  >Iteration   6: -logL=-2165305.724, Lambda=1.0e-02, delta=25.924, step=1.0e+00, max(|grad|)=-505.727555 [Prefactor:102]
+2023-07-12T09:16:05:  >Iteration   7: -logL=-2165306.280, Lambda=1.0e-03, delta=0.556, step=1.0e+00, max(|grad|)=-13.798620 [Index:103]
+2023-07-12T09:17:20:  >Iteration   8: -logL=-2165306.281, Lambda=1.0e-04, delta=0.000, step=1.0e+00, max(|grad|)=-0.274426 [Index:103]
+2023-07-12T09:17:20:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:17:20:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:17:20:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T09:17:20: 
+2023-07-12T09:17:20: +============================================+
+2023-07-12T09:17:20: | Maximum likelihood re-optimisation results |
+2023-07-12T09:17:20: +============================================+
+2023-07-12T09:17:20: === GOptimizerLM ===
+2023-07-12T09:17:20:  Optimized function value ..: -2165306.281
+2023-07-12T09:17:20:  Absolute precision ........: 0.005
+2023-07-12T09:17:20:  Acceptable value decrease .: 2
+2023-07-12T09:17:20:  Optimization status .......: converged
+2023-07-12T09:17:20:  Number of parameters ......: 106
+2023-07-12T09:17:20:  Number of free parameters .: 18
+2023-07-12T09:17:20:  Number of iterations ......: 8
+2023-07-12T09:17:20:  Lambda ....................: 1e-05
+2023-07-12T09:17:20: 
+2023-07-12T09:17:20: +====================================+
+2023-07-12T09:17:20: | Maximum likelihood re-optimisation |
+2023-07-12T09:17:20: +====================================+
+2023-07-12T09:18:36:  >Iteration   0: -logL=-2183643.208, Lambda=1.0e-03
+2023-07-12T09:18:36:    Parameter "Prefactor" drives optimization step (step=0.319181)
+2023-07-12T09:18:57:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:18:57:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T09:18:57:   Iteration   1: -logL=-2183643.208, Lambda=1.0e-03, delta=-144.044, step=3.2e-01, max(|grad|)=79800.332504 [Curvature:89] (stalled)
+2023-07-12T09:18:57:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:18:57:    Parameter "Prefactor" drives optimization step (step=0.627841)
+2023-07-12T09:19:42:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:19:42:   Iteration   2: -logL=-2183643.208, Lambda=1.0e-02, delta=-211.868, step=6.3e-01, max(|grad|)=44288.437540 [Index:104] (stalled)
+2023-07-12T09:19:42:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:20:56:  >Iteration   3: -logL=-2183986.704, Lambda=1.0e-01, delta=343.496, step=1.0e+00, max(|grad|)=16301.381692 [Index:104]
+2023-07-12T09:22:12:  >Iteration   4: -logL=-2184205.541, Lambda=1.0e-02, delta=218.837, step=1.0e+00, max(|grad|)=-626.936235 [Prefactor:103]
+2023-07-12T09:22:56:  >Iteration   5: -logL=-2184206.557, Lambda=1.0e-03, delta=1.016, step=1.0e+00, max(|grad|)=-15.733529 [Index:104]
+2023-07-12T09:24:11:  >Iteration   6: -logL=-2184206.558, Lambda=1.0e-04, delta=0.001, step=1.0e+00, max(|grad|)=-0.395358 [Index:104]
+2023-07-12T09:24:11:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:24:11:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:24:11:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T09:24:11: 
+2023-07-12T09:24:11: +============================================+
+2023-07-12T09:24:11: | Maximum likelihood re-optimisation results |
+2023-07-12T09:24:11: +============================================+
+2023-07-12T09:24:11: === GOptimizerLM ===
+2023-07-12T09:24:11:  Optimized function value ..: -2184206.558
+2023-07-12T09:24:11:  Absolute precision ........: 0.005
+2023-07-12T09:24:11:  Acceptable value decrease .: 2
+2023-07-12T09:24:11:  Optimization status .......: converged
+2023-07-12T09:24:11:  Number of parameters ......: 107
+2023-07-12T09:24:11:  Number of free parameters .: 16
+2023-07-12T09:24:11:  Number of iterations ......: 6
+2023-07-12T09:24:11:  Lambda ....................: 1e-05
+2023-07-12T09:24:11: 
+2023-07-12T09:24:11: +====================================+
+2023-07-12T09:24:11: | Maximum likelihood re-optimisation |
+2023-07-12T09:24:11: +====================================+
+2023-07-12T09:24:32:  >Iteration   0: -logL=-2170801.268, Lambda=1.0e-03
+2023-07-12T09:24:32:    Parameter "Prefactor" drives optimization step (step=0.276061)
+2023-07-12T09:25:48:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:25:48:  >Iteration   1: -logL=-2173001.118, Lambda=1.0e-03, delta=2199.850, step=2.8e-01, max(|grad|)=96322.453434 [Index:104]
+2023-07-12T09:25:48:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:25:48:    Parameter "Prefactor" drives optimization step (step=0.0349411)
+2023-07-12T09:27:03:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:27:03:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T09:27:03:  >Iteration   2: -logL=-2173119.816, Lambda=1.0e-04, delta=118.698, step=3.5e-02, max(|grad|)=94151.616325 [Index:104]
+2023-07-12T09:27:03:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:28:18:  >Iteration   3: -logL=-2178268.798, Lambda=1.0e-05, delta=5148.982, step=1.0e+00, max(|grad|)=3724.803492 [Curvature:89]
+2023-07-12T09:28:39:  >Iteration   4: -logL=-2178486.543, Lambda=1.0e-06, delta=217.745, step=1.0e+00, max(|grad|)=661.174193 [Index:104]
+2023-07-12T09:29:18:  >Iteration   5: -logL=-2178487.513, Lambda=1.0e-07, delta=0.970, step=1.0e+00, max(|grad|)=5.118292 [Index:104]
+2023-07-12T09:30:33:  >Iteration   6: -logL=-2178487.513, Lambda=1.0e-08, delta=0.000, step=1.0e+00, max(|grad|)=0.257072 [Index:104]
+2023-07-12T09:30:33:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:30:33:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:30:33:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T09:30:33: 
+2023-07-12T09:30:33: +============================================+
+2023-07-12T09:30:33: | Maximum likelihood re-optimisation results |
+2023-07-12T09:30:33: +============================================+
+2023-07-12T09:30:33: === GOptimizerLM ===
+2023-07-12T09:30:33:  Optimized function value ..: -2178487.513
+2023-07-12T09:30:33:  Absolute precision ........: 0.005
+2023-07-12T09:30:33:  Acceptable value decrease .: 2
+2023-07-12T09:30:33:  Optimization status .......: converged
+2023-07-12T09:30:33:  Number of parameters ......: 107
+2023-07-12T09:30:33:  Number of free parameters .: 16
+2023-07-12T09:30:33:  Number of iterations ......: 6
+2023-07-12T09:30:33:  Lambda ....................: 1e-09
+2023-07-12T09:30:33: 
+2023-07-12T09:30:33: +====================================+
+2023-07-12T09:30:33: | Maximum likelihood re-optimisation |
+2023-07-12T09:30:33: +====================================+
+2023-07-12T09:31:48:  >Iteration   0: -logL=-2182139.689, Lambda=1.0e-03
+2023-07-12T09:31:48:    Parameter "Prefactor" drives optimization step (step=0.334474)
+2023-07-12T09:32:09:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:32:09:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T09:32:09:  >Iteration   1: -logL=-2182325.706, Lambda=1.0e-03, delta=186.017, step=3.3e-01, max(|grad|)=74924.054025 [Curvature:89]
+2023-07-12T09:32:09:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:33:24:  >Iteration   2: -logL=-2183392.451, Lambda=1.0e-04, delta=1066.745, step=1.0e+00, max(|grad|)=2602.415385 [Curvature:89]
+2023-07-12T09:34:39:  >Iteration   3: -logL=-2183408.778, Lambda=1.0e-05, delta=16.327, step=1.0e+00, max(|grad|)=5332.869657 [Index:104]
+2023-07-12T09:35:54:  >Iteration   4: -logL=-2183443.293, Lambda=1.0e-06, delta=34.514, step=1.0e+00, max(|grad|)=-3847.577748 [Prefactor:48]
+2023-07-12T09:37:08:  >Iteration   5: -logL=-2183456.628, Lambda=1.0e-07, delta=13.336, step=1.0e+00, max(|grad|)=-6925.684759 [Prefactor:48]
+2023-07-12T09:38:23:  >Iteration   6: -logL=-2183472.394, Lambda=1.0e-08, delta=15.766, step=1.0e+00, max(|grad|)=-5098.979886 [Prefactor:48]
+2023-07-12T09:39:38:  >Iteration   7: -logL=-2183477.162, Lambda=1.0e-09, delta=4.768, step=1.0e+00, max(|grad|)=-3514.224050 [Prefactor:48]
+2023-07-12T09:40:53:  >Iteration   8: -logL=-2183478.751, Lambda=1.0e-10, delta=1.589, step=1.0e+00, max(|grad|)=-1560.617221 [Prefactor:48]
+2023-07-12T09:42:08:  >Iteration   9: -logL=-2183479.130, Lambda=1.0e-11, delta=0.379, step=1.0e+00, max(|grad|)=-611.598079 [Prefactor:48]
+2023-07-12T09:43:22:  >Iteration  10: -logL=-2183479.225, Lambda=1.0e-12, delta=0.094, step=1.0e+00, max(|grad|)=-204.659862 [Prefactor:48]
+2023-07-12T09:44:38:  >Iteration  11: -logL=-2183479.249, Lambda=1.0e-13, delta=0.024, step=1.0e+00, max(|grad|)=-62.806347 [Prefactor:48]
+2023-07-12T09:45:53:  >Iteration  12: -logL=-2183479.255, Lambda=1.0e-14, delta=0.006, step=1.0e+00, max(|grad|)=-18.171645 [Prefactor:48]
+2023-07-12T09:47:08:  >Iteration  13: -logL=-2183479.257, Lambda=1.0e-15, delta=0.002, step=1.0e+00, max(|grad|)=-5.075666 [Prefactor:48]
+2023-07-12T09:47:08:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:47:08:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T09:47:08: 
+2023-07-12T09:47:08: +============================================+
+2023-07-12T09:47:08: | Maximum likelihood re-optimisation results |
+2023-07-12T09:47:08: +============================================+
+2023-07-12T09:47:08: === GOptimizerLM ===
+2023-07-12T09:47:08:  Optimized function value ..: -2183479.257
+2023-07-12T09:47:08:  Absolute precision ........: 0.005
+2023-07-12T09:47:08:  Acceptable value decrease .: 2
+2023-07-12T09:47:08:  Optimization status .......: converged
+2023-07-12T09:47:08:  Number of parameters ......: 107
+2023-07-12T09:47:08:  Number of free parameters .: 16
+2023-07-12T09:47:08:  Number of iterations ......: 13
+2023-07-12T09:47:08:  Lambda ....................: 1e-16
+2023-07-12T09:47:08: 
+2023-07-12T09:47:08: +====================================+
+2023-07-12T09:47:08: | Maximum likelihood re-optimisation |
+2023-07-12T09:47:08: +====================================+
+2023-07-12T09:48:23:  >Iteration   0: -logL=-2185719.256, Lambda=1.0e-03
+2023-07-12T09:48:23:    Parameter "Prefactor" drives optimization step (step=0.310586)
+2023-07-12T09:48:23:    Parameter "Prefactor" hits minimum: -9.09495e-13 < 0 (1)
+2023-07-12T09:49:39:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:49:39:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T09:49:39:   Iteration   1: -logL=-2185719.256, Lambda=1.0e-03, delta=-454.085, step=3.1e-01, max(|grad|)=81265.788478 [Curvature:89] (stalled)
+2023-07-12T09:49:39:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:49:39:    Parameter "Prefactor" drives optimization step (step=0.557677)
+2023-07-12T09:50:54:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:50:54:   Iteration   2: -logL=-2185719.256, Lambda=1.0e-02, delta=-602.412, step=5.6e-01, max(|grad|)=34524.963271 [Index:104] (stalled)
+2023-07-12T09:50:54:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T09:52:09:   Iteration   3: -logL=-2185719.256, Lambda=1.0e-01, delta=-200.443, step=1.0e+00, max(|grad|)=20307.126946 [Index:104] (stalled)
+2023-07-12T09:53:24:  >Iteration   4: -logL=-2185719.775, Lambda=1.0e+00, delta=0.519, step=1.0e+00, max(|grad|)=3328.184716 [Index:104]
+2023-07-12T09:54:39:  >Iteration   5: -logL=-2185722.254, Lambda=1.0e-01, delta=2.480, step=1.0e+00, max(|grad|)=133.612997 [Index:104]
+2023-07-12T09:55:54:  >Iteration   6: -logL=-2185722.272, Lambda=1.0e-02, delta=0.017, step=1.0e+00, max(|grad|)=11.896523 [Index:104]
+2023-07-12T09:57:09:  >Iteration   7: -logL=-2185722.272, Lambda=1.0e-03, delta=0.000, step=1.0e+00, max(|grad|)=0.413130 [Index:104]
+2023-07-12T09:57:09:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:57:09:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T09:57:09:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T09:57:09: 
+2023-07-12T09:57:09: +============================================+
+2023-07-12T09:57:09: | Maximum likelihood re-optimisation results |
+2023-07-12T09:57:09: +============================================+
+2023-07-12T09:57:09: === GOptimizerLM ===
+2023-07-12T09:57:09:  Optimized function value ..: -2185722.272
+2023-07-12T09:57:09:  Absolute precision ........: 0.005
+2023-07-12T09:57:09:  Acceptable value decrease .: 2
+2023-07-12T09:57:09:  Optimization status .......: converged
+2023-07-12T09:57:09:  Number of parameters ......: 107
+2023-07-12T09:57:09:  Number of free parameters .: 16
+2023-07-12T09:57:09:  Number of iterations ......: 7
+2023-07-12T09:57:09:  Lambda ....................: 0.0001
+2023-07-12T09:57:09: 
+2023-07-12T09:57:09: +====================================+
+2023-07-12T09:57:09: | Maximum likelihood re-optimisation |
+2023-07-12T09:57:09: +====================================+
+2023-07-12T09:58:25:  >Iteration   0: -logL=-2185183.054, Lambda=1.0e-03
+2023-07-12T09:58:25:    Parameter "Prefactor" drives optimization step (step=0.252206)
+2023-07-12T09:58:46:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T09:58:46:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T09:58:46:   Iteration   1: -logL=-2185183.054, Lambda=1.0e-03, delta=-457.896, step=2.5e-01, max(|grad|)=86432.055292 [Curvature:89] (stalled)
+2023-07-12T09:58:46:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:00:02:   Iteration   2: -logL=-2185183.054, Lambda=1.0e-02, delta=-132.412, step=1.0e+00, max(|grad|)=35283.012061 [Curvature:89] (stalled)
+2023-07-12T10:01:00:  >Iteration   3: -logL=-2185249.694, Lambda=1.0e-01, delta=66.639, step=1.0e+00, max(|grad|)=4858.777941 [Curvature:89]
+2023-07-12T10:02:15:  >Iteration   4: -logL=-2185260.924, Lambda=1.0e-02, delta=11.230, step=1.0e+00, max(|grad|)=-140.798464 [Curvature:89]
+2023-07-12T10:02:37:  >Iteration   5: -logL=-2185260.942, Lambda=1.0e-03, delta=0.018, step=1.0e+00, max(|grad|)=-6.957368 [Curvature:89]
+2023-07-12T10:03:52:  >Iteration   6: -logL=-2185260.942, Lambda=1.0e-04, delta=0.000, step=1.0e+00, max(|grad|)=-0.241995 [Curvature:89]
+2023-07-12T10:03:52:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T10:03:52:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T10:03:52: 
+2023-07-12T10:03:52: +============================================+
+2023-07-12T10:03:52: | Maximum likelihood re-optimisation results |
+2023-07-12T10:03:52: +============================================+
+2023-07-12T10:03:52: === GOptimizerLM ===
+2023-07-12T10:03:52:  Optimized function value ..: -2185260.942
+2023-07-12T10:03:52:  Absolute precision ........: 0.005
+2023-07-12T10:03:52:  Acceptable value decrease .: 2
+2023-07-12T10:03:52:  Optimization status .......: converged
+2023-07-12T10:03:52:  Number of parameters ......: 107
+2023-07-12T10:03:52:  Number of free parameters .: 16
+2023-07-12T10:03:52:  Number of iterations ......: 6
+2023-07-12T10:03:52:  Lambda ....................: 1e-05
+2023-07-12T10:03:52: 
+2023-07-12T10:03:52: +====================================+
+2023-07-12T10:03:52: | Maximum likelihood re-optimisation |
+2023-07-12T10:03:52: +====================================+
+2023-07-12T10:05:08:  >Iteration   0: -logL=-2184015.479, Lambda=1.0e-03
+2023-07-12T10:05:08:    Parameter "Prefactor" drives optimization step (step=0.300612)
+2023-07-12T10:06:23:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:06:23:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T10:06:23:   Iteration   1: -logL=-2184015.479, Lambda=1.0e-03, delta=-447.565, step=3.0e-01, max(|grad|)=82254.451829 [Curvature:88] (stalled)
+2023-07-12T10:06:23:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:06:23:    Parameter "Prefactor" drives optimization step (step=0.562619)
+2023-07-12T10:07:39:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:07:39:   Iteration   2: -logL=-2184015.479, Lambda=1.0e-02, delta=-617.027, step=5.6e-01, max(|grad|)=36209.969429 [Index:103] (stalled)
+2023-07-12T10:07:39:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:08:54:   Iteration   3: -logL=-2184015.479, Lambda=1.0e-01, delta=-198.725, step=1.0e+00, max(|grad|)=19155.144134 [Index:103] (stalled)
+2023-07-12T10:10:09:   Iteration   4: -logL=-2184015.354, Lambda=1.0e+00, delta=-0.125, step=1.0e+00, max(|grad|)=3411.102529 [Index:103] (stalled)
+2023-07-12T10:11:25:  >Iteration   5: -logL=-2184016.067, Lambda=1.0e+01, delta=0.713, step=1.0e+00, max(|grad|)=-2799.419586 [Prefactor:102]
+2023-07-12T10:12:40:  >Iteration   6: -logL=-2184017.935, Lambda=1.0e+00, delta=1.868, step=1.0e+00, max(|grad|)=-1426.512273 [Prefactor:102]
+2023-07-12T10:13:55:  >Iteration   7: -logL=-2184020.345, Lambda=1.0e-01, delta=2.410, step=1.0e+00, max(|grad|)=-1264.416566 [Index:103]
+2023-07-12T10:15:12:  >Iteration   8: -logL=-2184021.588, Lambda=1.0e-02, delta=1.244, step=1.0e+00, max(|grad|)=-184.894662 [Index:103]
+2023-07-12T10:16:27:  >Iteration   9: -logL=-2184021.615, Lambda=1.0e-03, delta=0.027, step=1.0e+00, max(|grad|)=-6.557337 [Index:103]
+2023-07-12T10:17:43:  >Iteration  10: -logL=-2184021.615, Lambda=1.0e-04, delta=0.000, step=1.0e+00, max(|grad|)=-0.119418 [Index:103]
+2023-07-12T10:17:43:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T10:17:43:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T10:17:43:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T10:17:43: 
+2023-07-12T10:17:43: +============================================+
+2023-07-12T10:17:43: | Maximum likelihood re-optimisation results |
+2023-07-12T10:17:43: +============================================+
+2023-07-12T10:17:43: === GOptimizerLM ===
+2023-07-12T10:17:43:  Optimized function value ..: -2184021.615
+2023-07-12T10:17:43:  Absolute precision ........: 0.005
+2023-07-12T10:17:43:  Acceptable value decrease .: 2
+2023-07-12T10:17:43:  Optimization status .......: converged
+2023-07-12T10:17:43:  Number of parameters ......: 106
+2023-07-12T10:17:43:  Number of free parameters .: 18
+2023-07-12T10:17:43:  Number of iterations ......: 10
+2023-07-12T10:17:43:  Lambda ....................: 1e-05
+2023-07-12T10:17:43: 
+2023-07-12T10:17:43: +====================================+
+2023-07-12T10:17:43: | Maximum likelihood re-optimisation |
+2023-07-12T10:17:43: +====================================+
+2023-07-12T10:18:04:  >Iteration   0: -logL=-2179785.561, Lambda=1.0e-03
+2023-07-12T10:18:04:    Parameter "Prefactor" drives optimization step (step=0.267366)
+2023-07-12T10:18:04:    Parameter "Prefactor" hits minimum: -9.09495e-13 < 0 (1)
+2023-07-12T10:19:20:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:19:20:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T10:19:20:   Iteration   1: -logL=-2179785.561, Lambda=1.0e-03, delta=-455.896, step=2.7e-01, max(|grad|)=86664.703692 [Curvature:88] (stalled)
+2023-07-12T10:19:20:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:19:20:    Parameter "Prefactor" drives optimization step (step=0.556464)
+2023-07-12T10:20:35:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:20:35:   Iteration   2: -logL=-2179785.561, Lambda=1.0e-02, delta=-615.247, step=5.6e-01, max(|grad|)=39780.810389 [Index:103] (stalled)
+2023-07-12T10:20:35:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:21:50:   Iteration   3: -logL=-2179785.561, Lambda=1.0e-01, delta=-187.470, step=1.0e+00, max(|grad|)=18887.987162 [Index:103] (stalled)
+2023-07-12T10:23:05:  >Iteration   4: -logL=-2179791.877, Lambda=1.0e+00, delta=6.316, step=1.0e+00, max(|grad|)=5433.860715 [Index:103]
+2023-07-12T10:24:20:  >Iteration   5: -logL=-2179801.552, Lambda=1.0e-01, delta=9.675, step=1.0e+00, max(|grad|)=-1740.841140 [Index:103]
+2023-07-12T10:24:42:  >Iteration   6: -logL=-2179805.125, Lambda=1.0e-02, delta=3.573, step=1.0e+00, max(|grad|)=-284.295420 [Index:103]
+2023-07-12T10:25:57:  >Iteration   7: -logL=-2179805.205, Lambda=1.0e-03, delta=0.080, step=1.0e+00, max(|grad|)=-10.282910 [Index:103]
+2023-07-12T10:26:43:  >Iteration   8: -logL=-2179805.205, Lambda=1.0e-04, delta=0.000, step=1.0e+00, max(|grad|)=-0.196029 [Index:103]
+2023-07-12T10:26:43:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T10:26:43:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T10:26:43:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T10:26:43: 
+2023-07-12T10:26:43: +============================================+
+2023-07-12T10:26:43: | Maximum likelihood re-optimisation results |
+2023-07-12T10:26:43: +============================================+
+2023-07-12T10:26:43: === GOptimizerLM ===
+2023-07-12T10:26:43:  Optimized function value ..: -2179805.205
+2023-07-12T10:26:43:  Absolute precision ........: 0.005
+2023-07-12T10:26:43:  Acceptable value decrease .: 2
+2023-07-12T10:26:43:  Optimization status .......: converged
+2023-07-12T10:26:43:  Number of parameters ......: 106
+2023-07-12T10:26:43:  Number of free parameters .: 18
+2023-07-12T10:26:43:  Number of iterations ......: 8
+2023-07-12T10:26:43:  Lambda ....................: 1e-05
+2023-07-12T10:26:43: 
+2023-07-12T10:26:43: +====================================+
+2023-07-12T10:26:43: | Maximum likelihood re-optimisation |
+2023-07-12T10:26:43: +====================================+
+2023-07-12T10:27:04:  >Iteration   0: -logL=-2179705.624, Lambda=1.0e-03
+2023-07-12T10:27:04:    Parameter "Prefactor" drives optimization step (step=0.268068)
+2023-07-12T10:27:04:    Parameter "Prefactor" hits minimum: -9.09495e-13 < 0 (1)
+2023-07-12T10:28:20:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:28:20:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T10:28:20:   Iteration   1: -logL=-2179705.624, Lambda=1.0e-03, delta=-456.716, step=2.7e-01, max(|grad|)=86617.516389 [Curvature:88] (stalled)
+2023-07-12T10:28:20:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:28:20:    Parameter "Prefactor" drives optimization step (step=0.558153)
+2023-07-12T10:29:35:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:29:35:   Iteration   2: -logL=-2179705.624, Lambda=1.0e-02, delta=-620.619, step=5.6e-01, max(|grad|)=39856.252611 [Index:103] (stalled)
+2023-07-12T10:29:35:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:30:02:   Iteration   3: -logL=-2179705.624, Lambda=1.0e-01, delta=-190.495, step=1.0e+00, max(|grad|)=19214.774357 [Index:103] (stalled)
+2023-07-12T10:31:18:  >Iteration   4: -logL=-2179711.100, Lambda=1.0e+00, delta=5.477, step=1.0e+00, max(|grad|)=5775.506484 [Index:103]
+2023-07-12T10:32:33:  >Iteration   5: -logL=-2179719.232, Lambda=1.0e-01, delta=8.132, step=1.0e+00, max(|grad|)=-1447.294429 [Index:103]
+2023-07-12T10:33:49:  >Iteration   6: -logL=-2179721.899, Lambda=1.0e-02, delta=2.667, step=1.0e+00, max(|grad|)=-248.131833 [Index:103]
+2023-07-12T10:35:04:  >Iteration   7: -logL=-2179721.958, Lambda=1.0e-03, delta=0.060, step=1.0e+00, max(|grad|)=-8.693401 [Index:103]
+2023-07-12T10:36:20:  >Iteration   8: -logL=-2179721.958, Lambda=1.0e-04, delta=0.000, step=1.0e+00, max(|grad|)=-0.157243 [Index:103]
+2023-07-12T10:36:20:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T10:36:20:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T10:36:20:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T10:36:20: 
+2023-07-12T10:36:20: +============================================+
+2023-07-12T10:36:20: | Maximum likelihood re-optimisation results |
+2023-07-12T10:36:20: +============================================+
+2023-07-12T10:36:20: === GOptimizerLM ===
+2023-07-12T10:36:20:  Optimized function value ..: -2179721.958
+2023-07-12T10:36:20:  Absolute precision ........: 0.005
+2023-07-12T10:36:20:  Acceptable value decrease .: 2
+2023-07-12T10:36:20:  Optimization status .......: converged
+2023-07-12T10:36:20:  Number of parameters ......: 106
+2023-07-12T10:36:20:  Number of free parameters .: 18
+2023-07-12T10:36:20:  Number of iterations ......: 8
+2023-07-12T10:36:20:  Lambda ....................: 1e-05
+2023-07-12T10:36:20: 
+2023-07-12T10:36:20: +====================================+
+2023-07-12T10:36:20: | Maximum likelihood re-optimisation |
+2023-07-12T10:36:20: +====================================+
+2023-07-12T10:37:35:  >Iteration   0: -logL=-2185168.443, Lambda=1.0e-03
+2023-07-12T10:37:35:    Parameter "Prefactor" drives optimization step (step=0.3059)
+2023-07-12T10:38:51:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:38:51:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T10:38:51:   Iteration   1: -logL=-2185168.443, Lambda=1.0e-03, delta=-447.696, step=3.1e-01, max(|grad|)=81590.494409 [Curvature:88] (stalled)
+2023-07-12T10:38:51:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:38:51:    Parameter "Prefactor" drives optimization step (step=0.567286)
+2023-07-12T10:40:06:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:40:06:   Iteration   2: -logL=-2185168.443, Lambda=1.0e-02, delta=-618.047, step=5.7e-01, max(|grad|)=34811.667115 [Index:103] (stalled)
+2023-07-12T10:40:06:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:41:21:   Iteration   3: -logL=-2185168.443, Lambda=1.0e-01, delta=-200.895, step=1.0e+00, max(|grad|)=19601.018118 [Index:103] (stalled)
+2023-07-12T10:42:36:   Iteration   4: -logL=-2185166.877, Lambda=1.0e+00, delta=-1.567, step=1.0e+00, max(|grad|)=3054.902562 [Index:103] (stalled)
+2023-07-12T10:42:57:  >Iteration   5: -logL=-2185167.426, Lambda=1.0e+01, delta=0.549, step=1.0e+00, max(|grad|)=2213.610792 [Index:103]
+2023-07-12T10:44:12:  >Iteration   6: -logL=-2185168.743, Lambda=1.0e+00, delta=1.317, step=1.0e+00, max(|grad|)=-758.181717 [Prefactor:102]
+2023-07-12T10:45:27:  >Iteration   7: -logL=-2185169.489, Lambda=1.0e-01, delta=0.746, step=1.0e+00, max(|grad|)=-588.158917 [Index:103]
+2023-07-12T10:46:42:  >Iteration   8: -logL=-2185169.757, Lambda=1.0e-02, delta=0.268, step=1.0e+00, max(|grad|)=-89.507193 [Index:103]
+2023-07-12T10:47:57:  >Iteration   9: -logL=-2185169.763, Lambda=1.0e-03, delta=0.006, step=1.0e+00, max(|grad|)=-3.053809 [Index:103]
+2023-07-12T10:49:13:  >Iteration  10: -logL=-2185169.763, Lambda=1.0e-04, delta=0.000, step=1.0e+00, max(|grad|)=-0.051855 [Index:103]
+2023-07-12T10:49:13:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T10:49:13:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T10:49:13:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T10:49:13: 
+2023-07-12T10:49:13: +============================================+
+2023-07-12T10:49:13: | Maximum likelihood re-optimisation results |
+2023-07-12T10:49:13: +============================================+
+2023-07-12T10:49:13: === GOptimizerLM ===
+2023-07-12T10:49:13:  Optimized function value ..: -2185169.763
+2023-07-12T10:49:13:  Absolute precision ........: 0.005
+2023-07-12T10:49:13:  Acceptable value decrease .: 2
+2023-07-12T10:49:13:  Optimization status .......: converged
+2023-07-12T10:49:13:  Number of parameters ......: 106
+2023-07-12T10:49:13:  Number of free parameters .: 18
+2023-07-12T10:49:13:  Number of iterations ......: 10
+2023-07-12T10:49:13:  Lambda ....................: 1e-05
+2023-07-12T10:49:13: 
+2023-07-12T10:49:13: +====================================+
+2023-07-12T10:49:13: | Maximum likelihood re-optimisation |
+2023-07-12T10:49:13: +====================================+
+2023-07-12T10:50:28:  >Iteration   0: -logL=-1171319.474, Lambda=1.0e-03
+2023-07-12T10:50:28:    Parameter "Prefactor" drives optimization step (step=0.156066)
+2023-07-12T10:51:42:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:51:42:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T10:51:42:   Iteration   1: -logL=-1171319.474, Lambda=1.0e-03, delta=-280488.485, step=1.6e-01, max(|grad|)=996268.885080 [Index:103] (stalled)
+2023-07-12T10:51:42:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:51:42:    Parameter "Prefactor" drives optimization step (step=0.337986)
+2023-07-12T10:52:04:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T10:52:04:   Iteration   2: -logL=-1171319.474, Lambda=1.0e-02, delta=-49415.560, step=3.4e-01, max(|grad|)=676193.756946 [Index:103] (stalled)
+2023-07-12T10:52:04:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T10:53:19:  >Iteration   3: -logL=-1253961.404, Lambda=1.0e-01, delta=82641.931, step=1.0e+00, max(|grad|)=341849.504381 [Index:103]
+2023-07-12T10:54:33:  >Iteration   4: -logL=-1471715.112, Lambda=1.0e-02, delta=217753.707, step=1.0e+00, max(|grad|)=122961.999216 [Index:103]
+2023-07-12T10:54:55:  >Iteration   5: -logL=-1662720.119, Lambda=1.0e-03, delta=191005.007, step=1.0e+00, max(|grad|)=70334.239788 [Index:103]
+2023-07-12T10:56:09:  >Iteration   6: -logL=-1793311.526, Lambda=1.0e-04, delta=130591.407, step=1.0e+00, max(|grad|)=42394.453388 [Index:103]
+2023-07-12T10:57:24:  >Iteration   7: -logL=-1848002.675, Lambda=1.0e-05, delta=54691.149, step=1.0e+00, max(|grad|)=17947.761390 [Index:103]
+2023-07-12T10:58:38:  >Iteration   8: -logL=-1857198.859, Lambda=1.0e-06, delta=9196.184, step=1.0e+00, max(|grad|)=3378.591403 [Index:103]
+2023-07-12T10:59:53:  >Iteration   9: -logL=-1857477.950, Lambda=1.0e-07, delta=279.091, step=1.0e+00, max(|grad|)=97.312300 [Index:103]
+2023-07-12T11:01:07:  >Iteration  10: -logL=-1857478.241, Lambda=1.0e-08, delta=0.291, step=1.0e+00, max(|grad|)=-1.971440 [Index:103]
+2023-07-12T11:02:22:  >Iteration  11: -logL=-1857478.241, Lambda=1.0e-09, delta=0.000, step=1.0e+00, max(|grad|)=-0.146240 [Index:103]
+2023-07-12T11:02:22:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T11:02:22:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T11:02:22:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T11:02:22: 
+2023-07-12T11:02:22: +============================================+
+2023-07-12T11:02:22: | Maximum likelihood re-optimisation results |
+2023-07-12T11:02:22: +============================================+
+2023-07-12T11:02:22: === GOptimizerLM ===
+2023-07-12T11:02:22:  Optimized function value ..: -1857478.241
+2023-07-12T11:02:22:  Absolute precision ........: 0.005
+2023-07-12T11:02:22:  Acceptable value decrease .: 2
+2023-07-12T11:02:22:  Optimization status .......: converged
+2023-07-12T11:02:22:  Number of parameters ......: 106
+2023-07-12T11:02:22:  Number of free parameters .: 15
+2023-07-12T11:02:22:  Number of iterations ......: 11
+2023-07-12T11:02:22:  Lambda ....................: 1e-10
+2023-07-12T11:02:22: 
+2023-07-12T11:02:22: +====================================+
+2023-07-12T11:02:22: | Maximum likelihood re-optimisation |
+2023-07-12T11:02:22: +====================================+
+2023-07-12T11:03:37:  >Iteration   0: -logL=-2185350.175, Lambda=1.0e-03
+2023-07-12T11:03:37:    Parameter "Prefactor" drives optimization step (step=0.478164)
+2023-07-12T11:04:52:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T11:04:52:   Iteration   1: -logL=-2185350.175, Lambda=1.0e-03, delta=-368.091, step=4.8e-01, max(|grad|)=52456.652238 [Curvature:96] (stalled)
+2023-07-12T11:04:52:    Parameter "Prefactor" hits minimum: -0.117062 < 0 (1)
+2023-07-12T11:06:06:   Iteration   2: -logL=-2185350.175, Lambda=1.0e-02, delta=-254.110, step=1.0e+00, max(|grad|)=35503.146447 [Index:103] (stalled)
+2023-07-12T11:06:06:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T11:06:43:  >Iteration   3: -logL=-2185465.664, Lambda=1.0e-01, delta=115.488, step=1.0e+00, max(|grad|)=19516.696709 [Index:103]
+2023-07-12T11:07:58:  >Iteration   4: -logL=-2185664.556, Lambda=1.0e-02, delta=198.892, step=1.0e+00, max(|grad|)=767.688004 [Index:103]
+2023-07-12T11:09:13:  >Iteration   5: -logL=-2185665.864, Lambda=1.0e-03, delta=1.308, step=1.0e+00, max(|grad|)=-38.791472 [Curvature:96]
+2023-07-12T11:09:34:  >Iteration   6: -logL=-2185665.864, Lambda=1.0e-04, delta=0.001, step=1.0e+00, max(|grad|)=-1.023490 [Curvature:96]
+2023-07-12T11:09:34:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T11:09:34: 
+2023-07-12T11:09:34: +============================================+
+2023-07-12T11:09:34: | Maximum likelihood re-optimisation results |
+2023-07-12T11:09:34: +============================================+
+2023-07-12T11:09:34: === GOptimizerLM ===
+2023-07-12T11:09:34:  Optimized function value ..: -2185665.864
+2023-07-12T11:09:34:  Absolute precision ........: 0.005
+2023-07-12T11:09:34:  Acceptable value decrease .: 2
+2023-07-12T11:09:34:  Optimization status .......: converged
+2023-07-12T11:09:34:  Number of parameters ......: 106
+2023-07-12T11:09:34:  Number of free parameters .: 15
+2023-07-12T11:09:34:  Number of iterations ......: 6
+2023-07-12T11:09:34:  Lambda ....................: 1e-05
+2023-07-12T11:09:34: 
+2023-07-12T11:09:34: +====================================+
+2023-07-12T11:09:34: | Maximum likelihood re-optimisation |
+2023-07-12T11:09:34: +====================================+
+2023-07-12T11:10:52:  >Iteration   0: -logL=-2185403.535, Lambda=1.0e-03
+2023-07-12T11:10:52:    Parameter "Prefactor" drives optimization step (step=0.301324)
+2023-07-12T11:12:08:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T11:12:08:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T11:12:08:   Iteration   1: -logL=-2185403.535, Lambda=1.0e-03, delta=-353.759, step=3.0e-01, max(|grad|)=82878.345967 [Curvature:96] (stalled)
+2023-07-12T11:12:08:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T11:12:08:    Parameter "Prefactor" drives optimization step (step=0.6567)
+2023-07-12T11:13:25:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T11:13:25:   Iteration   2: -logL=-2185403.535, Lambda=1.0e-02, delta=-573.110, step=6.6e-01, max(|grad|)=54728.944207 [Index:108] (stalled)
+2023-07-12T11:13:25:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T11:14:41:  >Iteration   3: -logL=-2185414.841, Lambda=1.0e-01, delta=11.306, step=1.0e+00, max(|grad|)=15241.006183 [Index:108]
+2023-07-12T11:15:58:  >Iteration   4: -logL=-2185611.112, Lambda=1.0e-02, delta=196.271, step=1.0e+00, max(|grad|)=-791.715589 [Prefactor:107]
+2023-07-12T11:17:14:  >Iteration   5: -logL=-2185612.329, Lambda=1.0e-03, delta=1.217, step=1.0e+00, max(|grad|)=-22.920707 [Index:108]
+2023-07-12T11:18:31:  >Iteration   6: -logL=-2185612.329, Lambda=1.0e-04, delta=0.001, step=1.0e+00, max(|grad|)=-0.643285 [Index:108]
+2023-07-12T11:18:31:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T11:18:31:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T11:18:31:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T11:18:31: 
+2023-07-12T11:18:31: +============================================+
+2023-07-12T11:18:31: | Maximum likelihood re-optimisation results |
+2023-07-12T11:18:31: +============================================+
+2023-07-12T11:18:31: === GOptimizerLM ===
+2023-07-12T11:18:31:  Optimized function value ..: -2185612.329
+2023-07-12T11:18:31:  Absolute precision ........: 0.005
+2023-07-12T11:18:31:  Acceptable value decrease .: 2
+2023-07-12T11:18:31:  Optimization status .......: converged
+2023-07-12T11:18:31:  Number of parameters ......: 111
+2023-07-12T11:18:31:  Number of free parameters .: 18
+2023-07-12T11:18:31:  Number of iterations ......: 6
+2023-07-12T11:18:31:  Lambda ....................: 1e-05
+2023-07-12T11:18:31: 
+2023-07-12T11:18:31: +====================================+
+2023-07-12T11:18:31: | Maximum likelihood re-optimisation |
+2023-07-12T11:18:31: +====================================+
+2023-07-12T11:19:44:  >Iteration   0: -logL=10593349.419, Lambda=1.0e-03
+2023-07-12T11:19:44:    Parameter "Prefactor" drives optimization step (step=0.175939)
+2023-07-12T11:20:57:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T11:20:57:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-12T11:20:57:  >Iteration   1: -logL=10459738.899, Lambda=1.0e-03, delta=133610.520, step=1.8e-01, max(|grad|)=-640437.021029 [Index:35]
+2023-07-12T11:20:57:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T11:20:57:    Parameter "Prefactor" drives optimization step (step=0.766556)
+2023-07-12T11:20:57:    Parameter "Prefactor" hits minimum: -3.46945e-18 < 0 (1)
+2023-07-12T11:22:09:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-12T11:22:09:  >Iteration   2: -logL=9877145.280, Lambda=1.0e-04, delta=582593.619, step=7.7e-01, max(|grad|)=-602246.068561 [Index:28]
+2023-07-12T11:22:09:    Parameter "Prefactor" hits minimum: -0.0219812 < 0 (2)
+2023-07-12T11:23:22:  >Iteration   3: -logL=9249351.466, Lambda=1.0e-05, delta=627793.814, step=1.0e+00, max(|grad|)=-673879.903404 [Index:28]
+2023-07-12T11:23:22:    Parameter "Prefactor" hits minimum: -0.0799195 < 0 (3)
+2023-07-12T11:23:42:  >Iteration   4: -logL=8862303.757, Lambda=1.0e-06, delta=387047.709, step=1.0e+00, max(|grad|)=-542464.235076 [Index:28]
+2023-07-12T11:23:42:    Parameter "Prefactor" hits minimum 0 more than 3 times. Fix parameter at minimum for now.
+2023-07-12T11:24:54:  >Iteration   5: -logL=8734518.252, Lambda=1.0e-07, delta=127785.505, step=1.0e+00, max(|grad|)=-178895.252267 [Index:28]
+2023-07-12T11:24:54:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-12T11:26:07:  >Iteration   6: -logL=8716928.837, Lambda=1.0e-08, delta=17589.415, step=1.0e+00, max(|grad|)=28401.015571 [Index:42]
+2023-07-12T11:27:12:  >Iteration   7: -logL=8716331.692, Lambda=1.0e-09, delta=597.146, step=1.0e+00, max(|grad|)=-11226.926792 [Index:28]
+2023-07-12T11:28:25:  >Iteration   8: -logL=8716115.902, Lambda=1.0e-10, delta=215.789, step=1.0e+00, max(|grad|)=-2248.537744 [Index:35]
+2023-07-12T11:29:37:  >Iteration   9: -logL=8716082.841, Lambda=1.0e-11, delta=33.062, step=1.0e+00, max(|grad|)=1833.276729 [Index:35]
+2023-07-12T11:30:50:  >Iteration  10: -logL=8716061.049, Lambda=1.0e-12, delta=21.791, step=1.0e+00, max(|grad|)=-994.851246 [Index:35]
+2023-07-12T11:32:02:  >Iteration  11: -logL=8716054.686, Lambda=1.0e-13, delta=6.364, step=1.0e+00, max(|grad|)=689.950713 [Index:35]
+2023-07-12T11:33:15:  >Iteration  12: -logL=8716051.502, Lambda=1.0e-14, delta=3.184, step=1.0e+00, max(|grad|)=-410.205757 [Index:35]
+2023-07-12T11:34:28:  >Iteration  13: -logL=8716050.344, Lambda=1.0e-15, delta=1.158, step=1.0e+00, max(|grad|)=268.563203 [Index:35]
+2023-07-12T11:35:40:  >Iteration  14: -logL=8716049.818, Lambda=1.0e-16, delta=0.526, step=1.0e+00, max(|grad|)=-169.468355 [Index:95]
+2023-07-12T11:36:53:  >Iteration  15: -logL=8716049.604, Lambda=1.0e-17, delta=0.214, step=1.0e+00, max(|grad|)=128.941061 [Index:95]
+2023-07-12T11:37:36:  >Iteration  16: -logL=8716049.508, Lambda=1.0e-18, delta=0.097, step=1.0e+00, max(|grad|)=-97.252039 [Index:95]
+2023-07-12T11:38:48:  >Iteration  17: -logL=8716049.465, Lambda=1.0e-19, delta=0.042, step=1.0e+00, max(|grad|)=73.848546 [Index:95]
+2023-07-12T11:40:01:  >Iteration  18: -logL=8716049.445, Lambda=1.0e-20, delta=0.020, step=1.0e+00, max(|grad|)=-55.789161 [Index:95]
+2023-07-12T11:41:13:  >Iteration  19: -logL=8716049.436, Lambda=1.0e-21, delta=0.009, step=1.0e+00, max(|grad|)=42.313733 [Index:95]
+2023-07-12T11:42:26:  >Iteration  20: -logL=8716049.431, Lambda=1.0e-22, delta=0.005, step=1.0e+00, max(|grad|)=-31.996767 [Index:95]
+2023-07-12T11:42:26:    Free parameter "Prefactor" after convergence was reached with frozen parameter.
+2023-07-12T11:43:39:  >Iteration  21: -logL=8716049.428, Lambda=1.0e-03, delta=0.003, step=1.0e+00, max(|grad|)=36972.292128 [Prefactor:48]
+2023-07-12T11:43:39:    Free parameter "Prefactor" after convergence was reached with frozen parameter.
+2023-07-12T11:43:39:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T11:43:39:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-12T11:43:39:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-12T11:43:39: 
+2023-07-12T11:43:39: +============================================+
+2023-07-12T11:43:39: | Maximum likelihood re-optimisation results |
+2023-07-12T11:43:39: +============================================+
+2023-07-12T11:43:39: === GOptimizerLM ===
+2023-07-12T11:43:39:  Optimized function value ..: 8716049.428
+2023-07-12T11:43:39:  Absolute precision ........: 0.005
+2023-07-12T11:43:39:  Acceptable value decrease .: 2
+2023-07-12T11:43:39:  Optimization status .......: converged
+2023-07-12T11:43:39:  Number of parameters ......: 110
+2023-07-12T11:43:39:  Number of free parameters .: 16
+2023-07-12T11:43:39:  Number of iterations ......: 21
+2023-07-12T11:43:39:  Lambda ....................: 0.0001
+2023-07-12T11:43:39: 
+2023-07-12T11:43:39: +=========================================+
+2023-07-12T11:43:39: | Maximum likelihood optimisation results |
+2023-07-12T11:43:39: +=========================================+
+2023-07-12T11:43:39: === GOptimizerLM ===
+2023-07-12T11:43:39:  Optimized function value ..: -2185753.843
+2023-07-12T11:43:39:  Absolute precision ........: 0.005
+2023-07-12T11:43:39:  Acceptable value decrease .: 2
+2023-07-12T11:43:39:  Optimization status .......: converged
+2023-07-12T11:43:39:  Number of parameters ......: 114
+2023-07-12T11:43:39:  Number of free parameters .: 18
+2023-07-12T11:43:39:  Number of iterations ......: 12
+2023-07-12T11:43:39:  Lambda ....................: 1e-05
+2023-07-12T11:43:39:  Maximum log likelihood ....: 2185753.843
+2023-07-12T11:43:39:  Observed events  (Nobs) ...: 4520696.000
+2023-07-12T11:43:39:  Predicted events (Npred) ..: 4518995.620 (Nobs - Npred = 1700.37978149205)
+2023-07-12T11:43:39: === GModels ===
+2023-07-12T11:43:39:  Number of models ..........: 16
+2023-07-12T11:43:39:  Number of parameters ......: 114
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000103_00002_J1847-0616
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 32.0422729654238
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialDisk" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 8
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 281.809955447362 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -6.24842225832808 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Radius ...................: 0.0146245825187935 [0.0002778,3] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 4
+2023-07-12T11:43:39:   Prefactor ................: 4.2604506299741e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -1.96615434177441 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-12T11:43:39:   CutoffEnergy .............: 548428.729010523 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000102_00006_J1834-0705
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 2317.55712325964
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialDisk" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 8
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 278.529595769042 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -7.10833511678706 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Radius ...................: 0.208724968932644 [0.0002778,3] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 4
+2023-07-12T11:43:39:   Prefactor ................: 2.14557347053285e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -2.23585852133686 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-12T11:43:39:   CutoffEnergy .............: 862634.404391805 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000104_00001_J1843-0403
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 40895.1243213229
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialDisk" * "LogParabola" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 8
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 280.774162837681 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -4.06248657669318 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Radius ...................: 0.0182863487677975 [0.0002778,3] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 4
+2023-07-12T11:43:39:   Prefactor ................: 1.60192846833514e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -3.77146258815703 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-12T11:43:39:   Curvature ................: -0.566420114042711 [-5,5]  (fixed,scale=-1,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000103_00006_J1842-0507
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 3094.56947792508
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 7
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 280.547528893038 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -5.16375551367261 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Sigma ....................: 0.253856860197786 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 3
+2023-07-12T11:43:39:   Prefactor ................: 2.43664056676775e-18 +/- 4.84718585691061e-20 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -2.37483669228631 +/- 0.0136491119112332 [-9,0]  (free,scale=-1,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000103_00003_J1841-0533
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 14532.6586896703
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 7
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 280.256140182909 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -5.51581519249404 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Sigma ....................: 0.253310736072686 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 3
+2023-07-12T11:43:39:   Prefactor ................: 7.04199303123204e-18 +/- 6.78353150831534e-20 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -2.43661829705365 +/- 0.00638754865637057 [-9,0]  (free,scale=-1,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000103_00005_J1839-0557
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 4549.17133697402
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 7
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 279.965252933682 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -5.85330912694265 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Sigma ....................: 0.257099751507107 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 3
+2023-07-12T11:43:39:   Prefactor ................: 3.32978484901249e-18 +/- 5.51754627492741e-20 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -2.34198128425462 +/- 0.0111579705142293 [-9,0]  (free,scale=-1,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000103_00010_J1839-0535
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 63.142209793441
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialDisk" * "PowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 7
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 279.812718255179 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -5.59537006013568 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Radius ...................: 0.0493183221060182 [0.0002778,3] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 3
+2023-07-12T11:43:39:   Prefactor ................: 3.51429353798914e-20 +/- 9.78596933013389e-21 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -3.19244164373215 +/- 0.141880528208187 [-9,0]  (free,scale=-1,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000103_00009_J1838-0621
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 985.800801253878
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialDisk" * "PowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 7
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 279.757125027336 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -6.31369744972392 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Radius ...................: 0.35065211796876 [0.0002778,3] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 3
+2023-07-12T11:43:39:   Prefactor ................: 1.68706303678441e-19 +/- 1.87011759667238e-20 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -3.50599641372634 +/- 0.0428627987288642 [-9,0]  (free,scale=-1,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000102_00008_J1838-0655
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 3464.45533676352
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialGaussian" * "LogParabola" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 8
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 279.574872866032 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -6.92930234947727 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Sigma ....................: 0.0545986498465035 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 4
+2023-07-12T11:43:39:   Prefactor ................: 8.0901572022029e-19 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -2.35507942052281 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-12T11:43:39:   Curvature ................: -0.0397314216084191 [-5,5]  (fixed,scale=-1,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000102_00009_J1836-0656
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 11897.2754984749
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialGaussian" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 8
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 279.326562506354 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -6.94365284971346 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Sigma ....................: 0.0522620739930882 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 4
+2023-07-12T11:43:39:   Prefactor ................: 1.78631169422097e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -2.30719562832623 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-12T11:43:39:   CutoffEnergy .............: 72342091.1457531 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000102_00004_J1837-0656
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 12063.7688329369
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialGaussian" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 8
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 279.448351357449 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -6.93520483782059 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Sigma ....................: 0.0487384173774889 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 4
+2023-07-12T11:43:39:   Prefactor ................: 1.90229429216682e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -2.29250984507108 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-12T11:43:39:   CutoffEnergy .............: 47497317.4278495 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000102_00013_J1836-0635
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 1168.16011059191
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialGaussian" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 8
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 279.196591854328 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -6.95324005328896 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Sigma ....................: 0.049482630241969 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 4
+2023-07-12T11:43:39:   Prefactor ................: 4.26887023208354e-19 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -2.19257592915591 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-12T11:43:39:   CutoffEnergy .............: 15013995.0014358 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000102_00001_J1837-0636
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 656551.202620539
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialDisk" * "LogParabola" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 8
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 279.359881124033 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -6.57972978401895 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Radius ...................: 0.0109836084790845 [0.0002778,3] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 4
+2023-07-12T11:43:39:   Prefactor ................: 2.39025501030974e-17 +/- 8.73429793488222e-20 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -2.87952811412958 +/- 0.00344538001846257 [-9,0]  (free,scale=-1,gradient)
+2023-07-12T11:43:39:   Curvature ................: 0.00998594994213307 +/- 0.00107545194817768 [-5,5]  (free,scale=-1,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: R000102_00011_J1838-0621
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 175.956648560241
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: ExtendedSource
+2023-07-12T11:43:39:  Model components ..........: "RadialGaussian" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 8
+2023-07-12T11:43:39:  Number of spatial par's ...: 3
+2023-07-12T11:43:39:   RA .......................: 279.360161633865 deg (fixed,scale=1)
+2023-07-12T11:43:39:   DEC ......................: -6.58006429188533 deg (fixed,scale=1)
+2023-07-12T11:43:39:   Sigma ....................: 0.0355745560264236 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-12T11:43:39:  Number of spectral par's ..: 4
+2023-07-12T11:43:39:   Prefactor ................: 5.40001414339837e-15 +/- 9.81100225767112e-15 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-12T11:43:39:   Index ....................: -0.184351302569309 +/- 0.640623437574919 [-9,0]  (free,scale=-1,gradient)
+2023-07-12T11:43:39:   CutoffEnergy .............: 49373.9506619219 +/- 10506.6350043579 [10000,500000000] MeV (free,scale=1000000,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GModelSky ===
+2023-07-12T11:43:39:  Name ......................: IEM
+2023-07-12T11:43:39:  Instruments ...............: all
+2023-07-12T11:43:39:  Test Statistic ............: 283.027177265845
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: DiffuseSource
+2023-07-12T11:43:39:  Model components ..........: "MapCubeFunction" * "ConstantValue" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 3
+2023-07-12T11:43:39:  Number of spatial par's ...: 1
+2023-07-12T11:43:39:   Normalization ............: 1 [0.001,1000]  (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of spectral par's ..: 1
+2023-07-12T11:43:39:   Value ....................: 1 [1e-05,100000]  (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39:  Number of scale par's .....: 0
+2023-07-12T11:43:39: === GCTAModelCubeBackground ===
+2023-07-12T11:43:39:  Name ......................: BackgroundModel
+2023-07-12T11:43:39:  Instruments ...............: CTA, HESS, MAGIC, VERITAS
+2023-07-12T11:43:39:  Test Statistic ............: 21803606.5419628
+2023-07-12T11:43:39:  Observation identifiers ...: all
+2023-07-12T11:43:39:  Model type ................: "PowerLaw" * "Constant"
+2023-07-12T11:43:39:  Number of parameters ......: 4
+2023-07-12T11:43:39:  Number of spectral par's ..: 3
+2023-07-12T11:43:39:   Prefactor ................: 0.986197762326687 +/- 0.00151216147299967 [0.01,100] ph/cm2/s/MeV (free,scale=1,gradient)
+2023-07-12T11:43:39:   Index ....................: -0.00970993682072022 +/- 0.000609726179777009 [-5,5]  (free,scale=1,gradient)
+2023-07-12T11:43:39:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-12T11:43:39:  Number of temporal par's ..: 1
+2023-07-12T11:43:39:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-12T11:43:39: 
+2023-07-12T11:43:39: +==============+
+2023-07-12T11:43:39: | Save results |
+2023-07-12T11:43:39: +==============+
+2023-07-12T11:43:39:  Model definition file .....: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/ctlike_outmodel_0.03_100_FOV_4.0_binsz_0.02_GAL.xml
+2023-07-12T11:43:39:  Covariance matrix file ....: NONE
+2023-07-12T11:52:58: 
+2023-07-12T11:52:58: Application "ctlike" terminated after 14904 wall clock seconds, consuming 15078.8 seconds of CPU time.
