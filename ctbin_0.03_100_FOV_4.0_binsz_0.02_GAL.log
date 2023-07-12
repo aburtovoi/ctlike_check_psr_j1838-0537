@@ -1,0 +1,1231 @@
+2022-10-28T10:10:41: ********************************************************************************
+2022-10-28T10:10:41: *                                     ctbin                                    *
+2022-10-28T10:10:41: * ---------------------------------------------------------------------------- *
+2022-10-28T10:10:41: * Version: 1.7.4                                                               *
+2022-10-28T10:10:41: ********************************************************************************
+2022-10-28T10:10:42: +============+
+2022-10-28T10:10:42: | Parameters |
+2022-10-28T10:10:42: +============+
+2022-10-28T10:10:42:  inobs .....................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/obs_selected_0.03_100_FOV_4.0_binsz_0.02_GAL.xml
+2022-10-28T10:10:42:  outobs ....................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/cntcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2022-10-28T10:10:42:  stack .....................: yes
+2022-10-28T10:10:42:  prefix ....................: cntcube_
+2022-10-28T10:10:42:  ebinalg ...................: LOG
+2022-10-28T10:10:42:  emin ......................: 0.03
+2022-10-28T10:10:42:  emax ......................: 100
+2022-10-28T10:10:42:  enumbins ..................: 88
+2022-10-28T10:10:42:  ebinfile ..................: [not queried]
+2022-10-28T10:10:42:  ebingamma .................: [not queried]
+2022-10-28T10:10:42:  usepnt ....................: no
+2022-10-28T10:10:42:  nxpix .....................: 200
+2022-10-28T10:10:42:  nypix .....................: 200
+2022-10-28T10:10:42:  binsz .....................: 0.02
+2022-10-28T10:10:42:  coordsys ..................: GAL
+2022-10-28T10:10:42:  proj ......................: CAR
+2022-10-28T10:10:42:  xref ......................: 26.5074469914164
+2022-10-28T10:10:42:  yref ......................: 0.209221686069102
+2022-10-28T10:10:42:  nthreads ..................: 0
+2022-10-28T10:10:42:  publish ...................: no
+2022-10-28T10:10:42:  chatter ...................: 2
+2022-10-28T10:10:42:  clobber ...................: yes
+2022-10-28T10:10:42:  debug .....................: no
+2022-10-28T10:10:42:  mode ......................: ql
+2022-10-28T10:10:42:  logfile ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/ctbin_0.03_100_FOV_4.0_binsz_0.02_GAL.log
+2022-10-28T10:10:42: 
+2022-10-28T10:10:42: +====================+
+2022-10-28T10:10:42: | Input observations |
+2022-10-28T10:10:42: +====================+
+2022-10-28T10:10:42: === GObservations ===
+2022-10-28T10:10:42:  Number of observations ....: 129
+2022-10-28T10:10:42:  Number of models ..........: 0
+2022-10-28T10:10:42:  Number of observed events .: 13957860
+2022-10-28T10:10:42:  Number of predicted events : 0
+2022-10-28T10:10:42: 
+2022-10-28T10:10:42: +============================+
+2022-10-28T10:10:42: | Find unbinned observations |
+2022-10-28T10:10:42: +============================+
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000156) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000157) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000158) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000172) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000179) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000187) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000188) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000196) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000205) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000214) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000221) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000233) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000238) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000247) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000255) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000263) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000277) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000292) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000297) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000303) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000309) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000315) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000316) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000320) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000321) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000332) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000339) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000352) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000355) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000357) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000461) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000470) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000482) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000489) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000497) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000506) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000516) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000525) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000533) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000539) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000548) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000554) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000561) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000569) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000579) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000583) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000589) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000597) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000598) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000636) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000676) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000689) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000698) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000716) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000724) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000728) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000734) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000741) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000742) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000751) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000762) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=000999) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001008) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001015) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001021) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001028) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001034) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001035) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001040) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001052) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001056) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001071) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001075) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001080) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001086) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001088) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001089) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001293) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001301) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001306) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001316) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001322) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001330) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001337) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001342) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001351) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001358) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001365) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001376) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001381) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001385) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001386) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001390) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001528) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001537) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001551) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001559) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001566) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001572) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001581) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001582) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001588) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001594) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001599) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001606) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001612) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001614) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001720) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001728) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001735) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001739) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001748) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001751) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001765) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001766) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001781) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001793) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001870) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001878) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001888) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001891) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001933) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001937) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001938) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=001943) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=002017) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=002021) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=002022) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === CTA observation "Inner region" (id=002025) ===
+2022-10-28T10:10:42:  Including unbinned CTA observation
+2022-10-28T10:10:42: === Summary ===
+2022-10-28T10:10:42:  Number of observations ....: 129
+2022-10-28T10:10:42:  Mean pointing .............: (RA,Dec)=(279.924145603178,-5.71198934003024)
+2022-10-28T10:10:42:  Use mean pointing .........: no
+2022-10-28T10:10:42: 
+2022-10-28T10:10:42: +==================+
+2022-10-28T10:10:42: | Bin observations |
+2022-10-28T10:10:42: +==================+
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=001381) ===
+2022-10-28T10:10:43:  Events in list ............: 102842
+2022-10-28T10:10:43:  Events in cube ............: 2760
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 100082
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=001735) ===
+2022-10-28T10:10:43:  Events in list ............: 113902
+2022-10-28T10:10:43:  Events in cube ............: 54091
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 59811
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=000751) ===
+2022-10-28T10:10:43:  Events in list ............: 113018
+2022-10-28T10:10:43:  Events in cube ............: 42088
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 70930
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=001888) ===
+2022-10-28T10:10:43:  Events in list ............: 103261
+2022-10-28T10:10:43:  Events in cube ............: 2920
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 100341
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=001086) ===
+2022-10-28T10:10:43:  Events in list ............: 109953
+2022-10-28T10:10:43:  Events in cube ............: 57454
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 52499
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=000762) ===
+2022-10-28T10:10:43:  Events in list ............: 103970
+2022-10-28T10:10:43:  Events in cube ............: 27678
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 76292
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=001581) ===
+2022-10-28T10:10:43:  Events in list ............: 103651
+2022-10-28T10:10:43:  Events in cube ............: 3061
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 100590
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=000297) ===
+2022-10-28T10:10:43:  Events in list ............: 102629
+2022-10-28T10:10:43:  Events in cube ............: 6080
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 96549
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=000461) ===
+2022-10-28T10:10:43:  Events in list ............: 114423
+2022-10-28T10:10:43:  Events in cube ............: 65813
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 48610
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=000188) ===
+2022-10-28T10:10:43:  Events in list ............: 102954
+2022-10-28T10:10:43:  Events in cube ............: 4430
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 98524
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=001052) ===
+2022-10-28T10:10:43:  Events in list ............: 102797
+2022-10-28T10:10:43:  Events in cube ............: 7155
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 95642
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=000470) ===
+2022-10-28T10:10:43:  Events in list ............: 114134
+2022-10-28T10:10:43:  Events in cube ............: 72970
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 41164
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:43: === CTA observation "Inner region" (id=000516) ===
+2022-10-28T10:10:43:  Events in list ............: 104525
+2022-10-28T10:10:43:  Events in cube ............: 4916
+2022-10-28T10:10:43:  Events outside RoI ........: 0
+2022-10-28T10:10:43:  Events with invalid WCS ...: 0
+2022-10-28T10:10:43:  Events outside cube area ..: 99609
+2022-10-28T10:10:43:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=000156) ===
+2022-10-28T10:10:44:  Events in list ............: 105772
+2022-10-28T10:10:44:  Events in cube ............: 11645
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 94127
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=001021) ===
+2022-10-28T10:10:44:  Events in list ............: 106647
+2022-10-28T10:10:44:  Events in cube ............: 9916
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 96731
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=000598) ===
+2022-10-28T10:10:44:  Events in list ............: 113792
+2022-10-28T10:10:44:  Events in cube ............: 54069
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 59723
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=001342) ===
+2022-10-28T10:10:44:  Events in list ............: 110964
+2022-10-28T10:10:44:  Events in cube ............: 29898
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 81066
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=001943) ===
+2022-10-28T10:10:44:  Events in list ............: 109541
+2022-10-28T10:10:44:  Events in cube ............: 61805
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 47736
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=000724) ===
+2022-10-28T10:10:44:  Events in list ............: 109372
+2022-10-28T10:10:44:  Events in cube ............: 61705
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 47667
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=001351) ===
+2022-10-28T10:10:44:  Events in list ............: 108292
+2022-10-28T10:10:44:  Events in cube ............: 20338
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 87954
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=000238) ===
+2022-10-28T10:10:44:  Events in list ............: 113523
+2022-10-28T10:10:44:  Events in cube ............: 48167
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 65356
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=001606) ===
+2022-10-28T10:10:44:  Events in list ............: 106529
+2022-10-28T10:10:44:  Events in cube ............: 41761
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 64768
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=001306) ===
+2022-10-28T10:10:44:  Events in list ............: 109996
+2022-10-28T10:10:44:  Events in cube ............: 57203
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 52793
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=000321) ===
+2022-10-28T10:10:44:  Events in list ............: 107184
+2022-10-28T10:10:44:  Events in cube ............: 48042
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 59142
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=001385) ===
+2022-10-28T10:10:44:  Events in list ............: 103626
+2022-10-28T10:10:44:  Events in cube ............: 4563
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 99063
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=001612) ===
+2022-10-28T10:10:44:  Events in list ............: 109560
+2022-10-28T10:10:44:  Events in cube ............: 57121
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 52439
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:44: === CTA observation "Inner region" (id=001316) ===
+2022-10-28T10:10:44:  Events in list ............: 114094
+2022-10-28T10:10:44:  Events in cube ............: 54294
+2022-10-28T10:10:44:  Events outside RoI ........: 0
+2022-10-28T10:10:44:  Events with invalid WCS ...: 0
+2022-10-28T10:10:44:  Events outside cube area ..: 59800
+2022-10-28T10:10:44:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=001891) ===
+2022-10-28T10:10:45:  Events in list ............: 105566
+2022-10-28T10:10:45:  Events in cube ............: 9890
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 95676
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=001386) ===
+2022-10-28T10:10:45:  Events in list ............: 105194
+2022-10-28T10:10:45:  Events in cube ............: 33027
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 72167
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=000999) ===
+2022-10-28T10:10:45:  Events in list ............: 112192
+2022-10-28T10:10:45:  Events in cube ............: 70197
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 41995
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=001582) ===
+2022-10-28T10:10:45:  Events in list ............: 102408
+2022-10-28T10:10:45:  Events in cube ............: 5520
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 96888
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=000303) ===
+2022-10-28T10:10:45:  Events in list ............: 110239
+2022-10-28T10:10:45:  Events in cube ............: 30766
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 79473
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=001537) ===
+2022-10-28T10:10:45:  Events in list ............: 114708
+2022-10-28T10:10:45:  Events in cube ............: 70525
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 44183
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=000196) ===
+2022-10-28T10:10:45:  Events in list ............: 112281
+2022-10-28T10:10:45:  Events in cube ............: 65303
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 46978
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=001588) ===
+2022-10-28T10:10:45:  Events in list ............: 103283
+2022-10-28T10:10:45:  Events in cube ............: 12858
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 90425
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=000482) ===
+2022-10-28T10:10:45:  Events in list ............: 113700
+2022-10-28T10:10:45:  Events in cube ............: 48770
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 64930
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=000525) ===
+2022-10-28T10:10:45:  Events in list ............: 103362
+2022-10-28T10:10:45:  Events in cube ............: 12882
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 90480
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=000157) ===
+2022-10-28T10:10:45:  Events in list ............: 114008
+2022-10-28T10:10:45:  Events in cube ............: 58700
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 55308
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=001594) ===
+2022-10-28T10:10:45:  Events in list ............: 111780
+2022-10-28T10:10:45:  Events in cube ............: 41593
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 70187
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=000636) ===
+2022-10-28T10:10:45:  Events in list ............: 114119
+2022-10-28T10:10:45:  Events in cube ............: 54169
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 59950
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=000561) ===
+2022-10-28T10:10:45:  Events in list ............: 109329
+2022-10-28T10:10:45:  Events in cube ............: 27339
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 81990
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:45: === CTA observation "Inner region" (id=002017) ===
+2022-10-28T10:10:45:  Events in list ............: 114194
+2022-10-28T10:10:45:  Events in cube ............: 54331
+2022-10-28T10:10:45:  Events outside RoI ........: 0
+2022-10-28T10:10:45:  Events with invalid WCS ...: 0
+2022-10-28T10:10:45:  Events outside cube area ..: 59863
+2022-10-28T10:10:45:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=000728) ===
+2022-10-28T10:10:46:  Events in list ............: 105577
+2022-10-28T10:10:46:  Events in cube ............: 10906
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 94671
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001358) ===
+2022-10-28T10:10:46:  Events in list ............: 112981
+2022-10-28T10:10:46:  Events in cube ............: 46195
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 66786
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=000247) ===
+2022-10-28T10:10:46:  Events in list ............: 114655
+2022-10-28T10:10:46:  Events in cube ............: 59707
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 54948
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001739) ===
+2022-10-28T10:10:46:  Events in list ............: 103215
+2022-10-28T10:10:46:  Events in cube ............: 12878
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 90337
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001766) ===
+2022-10-28T10:10:46:  Events in list ............: 109360
+2022-10-28T10:10:46:  Events in cube ............: 57004
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 52356
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=000332) ===
+2022-10-28T10:10:46:  Events in list ............: 107341
+2022-10-28T10:10:46:  Events in cube ............: 18100
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 89241
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001088) ===
+2022-10-28T10:10:46:  Events in list ............: 104949
+2022-10-28T10:10:46:  Events in cube ............: 33223
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 71726
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001614) ===
+2022-10-28T10:10:46:  Events in list ............: 103176
+2022-10-28T10:10:46:  Events in cube ............: 2986
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 100190
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001322) ===
+2022-10-28T10:10:46:  Events in list ............: 103673
+2022-10-28T10:10:46:  Events in cube ............: 12754
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 90919
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=000339) ===
+2022-10-28T10:10:46:  Events in list ............: 111383
+2022-10-28T10:10:46:  Events in cube ............: 68900
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 42483
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001390) ===
+2022-10-28T10:10:46:  Events in list ............: 106135
+2022-10-28T10:10:46:  Events in cube ............: 9863
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 96272
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001008) ===
+2022-10-28T10:10:46:  Events in list ............: 114684
+2022-10-28T10:10:46:  Events in cube ............: 68161
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 46523
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001056) ===
+2022-10-28T10:10:46:  Events in list ............: 110270
+2022-10-28T10:10:46:  Events in cube ............: 29748
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 80522
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=000309) ===
+2022-10-28T10:10:46:  Events in list ............: 102880
+2022-10-28T10:10:46:  Events in cube ............: 9957
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 92923
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:46: === CTA observation "Inner region" (id=001551) ===
+2022-10-28T10:10:46:  Events in list ............: 103907
+2022-10-28T10:10:46:  Events in cube ............: 27742
+2022-10-28T10:10:46:  Events outside RoI ........: 0
+2022-10-28T10:10:46:  Events with invalid WCS ...: 0
+2022-10-28T10:10:46:  Events outside cube area ..: 76165
+2022-10-28T10:10:46:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=000205) ===
+2022-10-28T10:10:47:  Events in list ............: 111761
+2022-10-28T10:10:47:  Events in cube ............: 35189
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 76572
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=001028) ===
+2022-10-28T10:10:47:  Events in list ............: 108084
+2022-10-28T10:10:47:  Events in cube ............: 20328
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 87756
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=000489) ===
+2022-10-28T10:10:47:  Events in list ............: 107410
+2022-10-28T10:10:47:  Events in cube ............: 47939
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 59471
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=000533) ===
+2022-10-28T10:10:47:  Events in list ............: 112184
+2022-10-28T10:10:47:  Events in cube ............: 63815
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 48369
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=000214) ===
+2022-10-28T10:10:47:  Events in list ............: 103248
+2022-10-28T10:10:47:  Events in cube ............: 12794
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 90454
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=001599) ===
+2022-10-28T10:10:47:  Events in list ............: 109699
+2022-10-28T10:10:47:  Events in cube ............: 62049
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 47650
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=000497) ===
+2022-10-28T10:10:47:  Events in list ............: 111571
+2022-10-28T10:10:47:  Events in cube ............: 34588
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 76983
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=000569) ===
+2022-10-28T10:10:47:  Events in list ............: 109771
+2022-10-28T10:10:47:  Events in cube ............: 62070
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 47701
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=002021) ===
+2022-10-28T10:10:47:  Events in list ............: 104806
+2022-10-28T10:10:47:  Events in cube ............: 10933
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 93873
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=000734) ===
+2022-10-28T10:10:47:  Events in list ............: 108173
+2022-10-28T10:10:47:  Events in cube ............: 21757
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 86416
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=000506) ===
+2022-10-28T10:10:47:  Events in list ............: 104036
+2022-10-28T10:10:47:  Events in cube ............: 28199
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 75837
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=000255) ===
+2022-10-28T10:10:47:  Events in list ............: 105322
+2022-10-28T10:10:47:  Events in cube ............: 34611
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 70711
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=002022) ===
+2022-10-28T10:10:47:  Events in list ............: 103269
+2022-10-28T10:10:47:  Events in cube ............: 12697
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 90572
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:47: === CTA observation "Inner region" (id=001781) ===
+2022-10-28T10:10:47:  Events in list ............: 114246
+2022-10-28T10:10:47:  Events in cube ............: 54775
+2022-10-28T10:10:47:  Events outside RoI ........: 0
+2022-10-28T10:10:47:  Events with invalid WCS ...: 0
+2022-10-28T10:10:47:  Events outside cube area ..: 59471
+2022-10-28T10:10:47:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001933) ===
+2022-10-28T10:10:48:  Events in list ............: 114184
+2022-10-28T10:10:48:  Events in cube ............: 54398
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 59786
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001089) ===
+2022-10-28T10:10:48:  Events in list ............: 103204
+2022-10-28T10:10:48:  Events in cube ............: 12879
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 90325
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001720) ===
+2022-10-28T10:10:48:  Events in list ............: 105830
+2022-10-28T10:10:48:  Events in cube ............: 9804
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 96026
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001330) ===
+2022-10-28T10:10:48:  Events in list ............: 107267
+2022-10-28T10:10:48:  Events in cube ............: 49850
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 57417
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001793) ===
+2022-10-28T10:10:48:  Events in list ............: 105255
+2022-10-28T10:10:48:  Events in cube ............: 36052
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 69203
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001528) ===
+2022-10-28T10:10:48:  Events in list ............: 108775
+2022-10-28T10:10:48:  Events in cube ............: 22007
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 86768
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001293) ===
+2022-10-28T10:10:48:  Events in list ............: 114680
+2022-10-28T10:10:48:  Events in cube ............: 68584
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 46096
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001071) ===
+2022-10-28T10:10:48:  Events in list ............: 114195
+2022-10-28T10:10:48:  Events in cube ............: 54560
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 59635
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001337) ===
+2022-10-28T10:10:48:  Events in list ............: 113092
+2022-10-28T10:10:48:  Events in cube ............: 66338
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 46754
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001559) ===
+2022-10-28T10:10:48:  Events in list ............: 112734
+2022-10-28T10:10:48:  Events in cube ............: 66099
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 46635
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=000158) ===
+2022-10-28T10:10:48:  Events in list ............: 110307
+2022-10-28T10:10:48:  Events in cube ............: 59407
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 50900
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:48: === CTA observation "Inner region" (id=001301) ===
+2022-10-28T10:10:48:  Events in list ............: 104098
+2022-10-28T10:10:48:  Events in cube ............: 23892
+2022-10-28T10:10:48:  Events outside RoI ........: 0
+2022-10-28T10:10:48:  Events with invalid WCS ...: 0
+2022-10-28T10:10:48:  Events outside cube area ..: 80206
+2022-10-28T10:10:48:  Events outside energy bins : 0
+2022-10-28T10:10:49: === CTA observation "Inner region" (id=000676) ===
+2022-10-28T10:10:49:  Events in list ............: 103432
+2022-10-28T10:10:49:  Events in cube ............: 2963
+2022-10-28T10:10:49:  Events outside RoI ........: 0
+2022-10-28T10:10:49:  Events with invalid WCS ...: 0
+2022-10-28T10:10:49:  Events outside cube area ..: 100469
+2022-10-28T10:10:49:  Events outside energy bins : 0
+2022-10-28T10:10:49: === CTA observation "Inner region" (id=000539) ===
+2022-10-28T10:10:49:  Events in list ............: 102893
+2022-10-28T10:10:49:  Events in cube ............: 4057
+2022-10-28T10:10:49:  Events outside RoI ........: 0
+2022-10-28T10:10:49:  Events with invalid WCS ...: 0
+2022-10-28T10:10:49:  Events outside cube area ..: 98836
+2022-10-28T10:10:49:  Events outside energy bins : 0
+2022-10-28T10:10:49: === CTA observation "Inner region" (id=000221) ===
+2022-10-28T10:10:49:  Events in list ............: 113541
+2022-10-28T10:10:49:  Events in cube ............: 72229
+2022-10-28T10:10:49:  Events outside RoI ........: 0
+2022-10-28T10:10:49:  Events with invalid WCS ...: 0
+2022-10-28T10:10:49:  Events outside cube area ..: 41312
+2022-10-28T10:10:49:  Events outside energy bins : 0
+2022-10-28T10:10:49: === CTA observation "Inner region" (id=001365) ===
+2022-10-28T10:10:49:  Events in list ............: 112142
+2022-10-28T10:10:49:  Events in cube ............: 70296
+2022-10-28T10:10:49:  Events outside RoI ........: 0
+2022-10-28T10:10:49:  Events with invalid WCS ...: 0
+2022-10-28T10:10:49:  Events outside cube area ..: 41846
+2022-10-28T10:10:49:  Events outside energy bins : 0
+2022-10-28T10:10:49: === CTA observation "Inner region" (id=000579) ===
+2022-10-28T10:10:49:  Events in list ............: 103413
+2022-10-28T10:10:49:  Events in cube ............: 21669
+2022-10-28T10:10:49:  Events outside RoI ........: 0
+2022-10-28T10:10:49:  Events with invalid WCS ...: 0
+2022-10-28T10:10:49:  Events outside cube area ..: 81744
+2022-10-28T10:10:49:  Events outside energy bins : 0
+2022-10-28T10:10:50: === CTA observation "Inner region" (id=000741) ===
+2022-10-28T10:10:50:  Events in list ............: 106013
+2022-10-28T10:10:50:  Events in cube ............: 41494
+2022-10-28T10:10:50:  Events outside RoI ........: 0
+2022-10-28T10:10:50:  Events with invalid WCS ...: 0
+2022-10-28T10:10:50:  Events outside cube area ..: 64519
+2022-10-28T10:10:50:  Events outside energy bins : 0
+2022-10-28T10:10:50: === CTA observation "Inner region" (id=001748) ===
+2022-10-28T10:10:50:  Events in list ............: 113882
+2022-10-28T10:10:50:  Events in cube ............: 72253
+2022-10-28T10:10:50:  Events outside RoI ........: 0
+2022-10-28T10:10:50:  Events with invalid WCS ...: 0
+2022-10-28T10:10:50:  Events outside cube area ..: 41629
+2022-10-28T10:10:50:  Events outside energy bins : 0
+2022-10-28T10:10:51: === CTA observation "Inner region" (id=000263) ===
+2022-10-28T10:10:51:  Events in list ............: 108670
+2022-10-28T10:10:51:  Events in cube ............: 22011
+2022-10-28T10:10:51:  Events outside RoI ........: 0
+2022-10-28T10:10:51:  Events with invalid WCS ...: 0
+2022-10-28T10:10:51:  Events outside cube area ..: 86659
+2022-10-28T10:10:51:  Events outside energy bins : 0
+2022-10-28T10:10:51: === CTA observation "Inner region" (id=000352) ===
+2022-10-28T10:10:51:  Events in list ............: 108775
+2022-10-28T10:10:51:  Events in cube ............: 58993
+2022-10-28T10:10:51:  Events outside RoI ........: 0
+2022-10-28T10:10:51:  Events with invalid WCS ...: 0
+2022-10-28T10:10:51:  Events outside cube area ..: 49782
+2022-10-28T10:10:51:  Events outside energy bins : 0
+2022-10-28T10:10:51: === CTA observation "Inner region" (id=002025) ===
+2022-10-28T10:10:51:  Events in list ............: 110234
+2022-10-28T10:10:51:  Events in cube ............: 62256
+2022-10-28T10:10:51:  Events outside RoI ........: 0
+2022-10-28T10:10:51:  Events with invalid WCS ...: 0
+2022-10-28T10:10:51:  Events outside cube area ..: 47978
+2022-10-28T10:10:51:  Events outside energy bins : 0
+2022-10-28T10:10:51: === CTA observation "Inner region" (id=001937) ===
+2022-10-28T10:10:51:  Events in list ............: 105465
+2022-10-28T10:10:51:  Events in cube ............: 10767
+2022-10-28T10:10:51:  Events outside RoI ........: 0
+2022-10-28T10:10:51:  Events with invalid WCS ...: 0
+2022-10-28T10:10:51:  Events outside cube area ..: 94698
+2022-10-28T10:10:51:  Events outside energy bins : 0
+2022-10-28T10:10:51: === CTA observation "Inner region" (id=001015) ===
+2022-10-28T10:10:51:  Events in list ............: 103699
+2022-10-28T10:10:51:  Events in cube ............: 23934
+2022-10-28T10:10:51:  Events outside RoI ........: 0
+2022-10-28T10:10:51:  Events with invalid WCS ...: 0
+2022-10-28T10:10:51:  Events outside cube area ..: 79765
+2022-10-28T10:10:51:  Events outside energy bins : 0
+2022-10-28T10:10:52: === CTA observation "Inner region" (id=000315) ===
+2022-10-28T10:10:52:  Events in list ............: 103772
+2022-10-28T10:10:52:  Events in cube ............: 3340
+2022-10-28T10:10:52:  Events outside RoI ........: 0
+2022-10-28T10:10:52:  Events with invalid WCS ...: 0
+2022-10-28T10:10:52:  Events outside cube area ..: 100432
+2022-10-28T10:10:52:  Events outside energy bins : 0
+2022-10-28T10:10:52: === CTA observation "Inner region" (id=001728) ===
+2022-10-28T10:10:52:  Events in list ............: 110925
+2022-10-28T10:10:52:  Events in cube ............: 32570
+2022-10-28T10:10:52:  Events outside RoI ........: 0
+2022-10-28T10:10:52:  Events with invalid WCS ...: 0
+2022-10-28T10:10:52:  Events outside cube area ..: 78355
+2022-10-28T10:10:52:  Events outside energy bins : 0
+2022-10-28T10:10:52: === CTA observation "Inner region" (id=001034) ===
+2022-10-28T10:10:52:  Events in list ............: 103649
+2022-10-28T10:10:52:  Events in cube ............: 4600
+2022-10-28T10:10:52:  Events outside RoI ........: 0
+2022-10-28T10:10:52:  Events with invalid WCS ...: 0
+2022-10-28T10:10:52:  Events outside cube area ..: 99049
+2022-10-28T10:10:52:  Events outside energy bins : 0
+2022-10-28T10:10:52: === CTA observation "Inner region" (id=000233) ===
+2022-10-28T10:10:52:  Events in list ............: 114112
+2022-10-28T10:10:52:  Events in cube ............: 65870
+2022-10-28T10:10:52:  Events outside RoI ........: 0
+2022-10-28T10:10:52:  Events with invalid WCS ...: 0
+2022-10-28T10:10:52:  Events outside cube area ..: 48242
+2022-10-28T10:10:52:  Events outside energy bins : 0
+2022-10-28T10:10:52: === CTA observation "Inner region" (id=001075) ===
+2022-10-28T10:10:52:  Events in list ............: 107158
+2022-10-28T10:10:52:  Events in cube ............: 49877
+2022-10-28T10:10:52:  Events outside RoI ........: 0
+2022-10-28T10:10:52:  Events with invalid WCS ...: 0
+2022-10-28T10:10:52:  Events outside cube area ..: 57281
+2022-10-28T10:10:52:  Events outside energy bins : 0
+2022-10-28T10:10:52: === CTA observation "Inner region" (id=001376) ===
+2022-10-28T10:10:52:  Events in list ............: 102765
+2022-10-28T10:10:52:  Events in cube ............: 7150
+2022-10-28T10:10:52:  Events outside RoI ........: 0
+2022-10-28T10:10:52:  Events with invalid WCS ...: 0
+2022-10-28T10:10:52:  Events outside cube area ..: 95615
+2022-10-28T10:10:52:  Events outside energy bins : 0
+2022-10-28T10:10:52: === CTA observation "Inner region" (id=000689) ===
+2022-10-28T10:10:52:  Events in list ............: 114742
+2022-10-28T10:10:52:  Events in cube ............: 70295
+2022-10-28T10:10:52:  Events outside RoI ........: 0
+2022-10-28T10:10:52:  Events with invalid WCS ...: 0
+2022-10-28T10:10:52:  Events outside cube area ..: 44447
+2022-10-28T10:10:52:  Events outside energy bins : 0
+2022-10-28T10:10:52: === CTA observation "Inner region" (id=001566) ===
+2022-10-28T10:10:52:  Events in list ............: 114134
+2022-10-28T10:10:52:  Events in cube ............: 54335
+2022-10-28T10:10:52:  Events outside RoI ........: 0
+2022-10-28T10:10:52:  Events with invalid WCS ...: 0
+2022-10-28T10:10:52:  Events outside cube area ..: 59799
+2022-10-28T10:10:52:  Events outside energy bins : 0
+2022-10-28T10:10:52: === CTA observation "Inner region" (id=000172) ===
+2022-10-28T10:10:52:  Events in list ............: 115088
+2022-10-28T10:10:52:  Events in cube ............: 68914
+2022-10-28T10:10:52:  Events outside RoI ........: 0
+2022-10-28T10:10:52:  Events with invalid WCS ...: 0
+2022-10-28T10:10:52:  Events outside cube area ..: 46174
+2022-10-28T10:10:52:  Events outside energy bins : 0
+2022-10-28T10:10:53: === CTA observation "Inner region" (id=001870) ===
+2022-10-28T10:10:53:  Events in list ............: 114013
+2022-10-28T10:10:53:  Events in cube ............: 72367
+2022-10-28T10:10:53:  Events outside RoI ........: 0
+2022-10-28T10:10:53:  Events with invalid WCS ...: 0
+2022-10-28T10:10:53:  Events outside cube area ..: 41646
+2022-10-28T10:10:53:  Events outside energy bins : 0
+2022-10-28T10:10:53: === CTA observation "Inner region" (id=000548) ===
+2022-10-28T10:10:53:  Events in list ............: 114968
+2022-10-28T10:10:53:  Events in cube ............: 66814
+2022-10-28T10:10:53:  Events outside RoI ........: 0
+2022-10-28T10:10:53:  Events with invalid WCS ...: 0
+2022-10-28T10:10:53:  Events outside cube area ..: 48154
+2022-10-28T10:10:53:  Events outside energy bins : 0
+2022-10-28T10:10:53: === CTA observation "Inner region" (id=000742) ===
+2022-10-28T10:10:53:  Events in list ............: 102841
+2022-10-28T10:10:53:  Events in cube ............: 5379
+2022-10-28T10:10:53:  Events outside RoI ........: 0
+2022-10-28T10:10:53:  Events with invalid WCS ...: 0
+2022-10-28T10:10:53:  Events outside cube area ..: 97462
+2022-10-28T10:10:53:  Events outside energy bins : 0
+2022-10-28T10:10:53: === CTA observation "Inner region" (id=000583) ===
+2022-10-28T10:10:53:  Events in list ............: 107514
+2022-10-28T10:10:53:  Events in cube ............: 16531
+2022-10-28T10:10:53:  Events outside RoI ........: 0
+2022-10-28T10:10:53:  Events with invalid WCS ...: 0
+2022-10-28T10:10:53:  Events outside cube area ..: 90983
+2022-10-28T10:10:53:  Events outside energy bins : 0
+2022-10-28T10:10:53: === CTA observation "Inner region" (id=001751) ===
+2022-10-28T10:10:53:  Events in list ............: 104948
+2022-10-28T10:10:53:  Events in cube ............: 36226
+2022-10-28T10:10:53:  Events outside RoI ........: 0
+2022-10-28T10:10:53:  Events with invalid WCS ...: 0
+2022-10-28T10:10:53:  Events outside cube area ..: 68722
+2022-10-28T10:10:53:  Events outside energy bins : 0
+2022-10-28T10:10:53: === CTA observation "Inner region" (id=000355) ===
+2022-10-28T10:10:53:  Events in list ............: 104390
+2022-10-28T10:10:53:  Events in cube ............: 30666
+2022-10-28T10:10:53:  Events outside RoI ........: 0
+2022-10-28T10:10:53:  Events with invalid WCS ...: 0
+2022-10-28T10:10:53:  Events outside cube area ..: 73724
+2022-10-28T10:10:53:  Events outside energy bins : 0
+2022-10-28T10:10:53: === CTA observation "Inner region" (id=001938) ===
+2022-10-28T10:10:53:  Events in list ............: 103662
+2022-10-28T10:10:53:  Events in cube ............: 12783
+2022-10-28T10:10:53:  Events outside RoI ........: 0
+2022-10-28T10:10:53:  Events with invalid WCS ...: 0
+2022-10-28T10:10:53:  Events outside cube area ..: 90879
+2022-10-28T10:10:53:  Events outside energy bins : 0
+2022-10-28T10:10:53: === CTA observation "Inner region" (id=000277) ===
+2022-10-28T10:10:53:  Events in list ............: 113043
+2022-10-28T10:10:53:  Events in cube ............: 45454
+2022-10-28T10:10:53:  Events outside RoI ........: 0
+2022-10-28T10:10:53:  Events with invalid WCS ...: 0
+2022-10-28T10:10:53:  Events outside cube area ..: 67589
+2022-10-28T10:10:53:  Events outside energy bins : 0
+2022-10-28T10:10:53: === CTA observation "Inner region" (id=000316) ===
+2022-10-28T10:10:53:  Events in list ............: 103003
+2022-10-28T10:10:53:  Events in cube ............: 2369
+2022-10-28T10:10:53:  Events outside RoI ........: 0
+2022-10-28T10:10:53:  Events with invalid WCS ...: 0
+2022-10-28T10:10:53:  Events outside cube area ..: 100634
+2022-10-28T10:10:53:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=001035) ===
+2022-10-28T10:10:54:  Events in list ............: 103035
+2022-10-28T10:10:54:  Events in cube ............: 2757
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 100278
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=001080) ===
+2022-10-28T10:10:54:  Events in list ............: 113497
+2022-10-28T10:10:54:  Events in cube ............: 66651
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 46846
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=001572) ===
+2022-10-28T10:10:54:  Events in list ............: 105686
+2022-10-28T10:10:54:  Events in cube ............: 10839
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 94847
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=000698) ===
+2022-10-28T10:10:54:  Events in list ............: 112915
+2022-10-28T10:10:54:  Events in cube ............: 65900
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 47015
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=000179) ===
+2022-10-28T10:10:54:  Events in list ............: 106066
+2022-10-28T10:10:54:  Events in cube ............: 45249
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 60817
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=001878) ===
+2022-10-28T10:10:54:  Events in list ............: 103832
+2022-10-28T10:10:54:  Events in cube ............: 12984
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 90848
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=001765) ===
+2022-10-28T10:10:54:  Events in list ............: 111266
+2022-10-28T10:10:54:  Events in cube ............: 32688
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 78578
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=000589) ===
+2022-10-28T10:10:54:  Events in list ............: 102765
+2022-10-28T10:10:54:  Events in cube ............: 8171
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 94594
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=000554) ===
+2022-10-28T10:10:54:  Events in list ............: 105935
+2022-10-28T10:10:54:  Events in cube ............: 10877
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 95058
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:54: === CTA observation "Inner region" (id=000357) ===
+2022-10-28T10:10:54:  Events in list ............: 102889
+2022-10-28T10:10:54:  Events in cube ............: 18911
+2022-10-28T10:10:54:  Events outside RoI ........: 0
+2022-10-28T10:10:54:  Events with invalid WCS ...: 0
+2022-10-28T10:10:54:  Events outside cube area ..: 83978
+2022-10-28T10:10:54:  Events outside energy bins : 0
+2022-10-28T10:10:55: === CTA observation "Inner region" (id=000320) ===
+2022-10-28T10:10:55:  Events in list ............: 104817
+2022-10-28T10:10:55:  Events in cube ............: 8543
+2022-10-28T10:10:55:  Events outside RoI ........: 0
+2022-10-28T10:10:55:  Events with invalid WCS ...: 0
+2022-10-28T10:10:55:  Events outside cube area ..: 96274
+2022-10-28T10:10:55:  Events outside energy bins : 0
+2022-10-28T10:10:55: === CTA observation "Inner region" (id=000292) ===
+2022-10-28T10:10:55:  Events in list ............: 103902
+2022-10-28T10:10:55:  Events in cube ............: 22206
+2022-10-28T10:10:55:  Events outside RoI ........: 0
+2022-10-28T10:10:55:  Events with invalid WCS ...: 0
+2022-10-28T10:10:55:  Events outside cube area ..: 81696
+2022-10-28T10:10:55:  Events outside energy bins : 0
+2022-10-28T10:10:55: === CTA observation "Inner region" (id=001040) ===
+2022-10-28T10:10:55:  Events in list ............: 112605
+2022-10-28T10:10:55:  Events in cube ............: 45649
+2022-10-28T10:10:55:  Events outside RoI ........: 0
+2022-10-28T10:10:55:  Events with invalid WCS ...: 0
+2022-10-28T10:10:55:  Events outside cube area ..: 66956
+2022-10-28T10:10:55:  Events outside energy bins : 0
+2022-10-28T10:10:55: === CTA observation "Inner region" (id=000716) ===
+2022-10-28T10:10:55:  Events in list ............: 103084
+2022-10-28T10:10:55:  Events in cube ............: 12826
+2022-10-28T10:10:55:  Events outside RoI ........: 0
+2022-10-28T10:10:55:  Events with invalid WCS ...: 0
+2022-10-28T10:10:55:  Events outside cube area ..: 90258
+2022-10-28T10:10:55:  Events outside energy bins : 0
+2022-10-28T10:10:55: === CTA observation "Inner region" (id=000187) ===
+2022-10-28T10:10:55:  Events in list ............: 104314
+2022-10-28T10:10:55:  Events in cube ............: 4792
+2022-10-28T10:10:55:  Events outside RoI ........: 0
+2022-10-28T10:10:55:  Events with invalid WCS ...: 0
+2022-10-28T10:10:55:  Events outside cube area ..: 99522
+2022-10-28T10:10:55:  Events outside energy bins : 0
+2022-10-28T10:10:55: === CTA observation "Inner region" (id=000597) ===
+2022-10-28T10:10:55:  Events in list ............: 105665
+2022-10-28T10:10:55:  Events in cube ............: 41640
+2022-10-28T10:10:55:  Events outside RoI ........: 0
+2022-10-28T10:10:55:  Events with invalid WCS ...: 0
+2022-10-28T10:10:55:  Events outside cube area ..: 64025
+2022-10-28T10:10:55:  Events outside energy bins : 0
+2022-10-28T10:10:55: 
+2022-10-28T10:10:55: +====================+
+2022-10-28T10:10:55: | Binned observation |
+2022-10-28T10:10:55: +====================+
+2022-10-28T10:10:55: === GObservations ===
+2022-10-28T10:10:55:  Number of observations ....: 1
+2022-10-28T10:10:55:  Number of models ..........: 0
+2022-10-28T10:10:55:  Number of observed events .: 4520696
+2022-10-28T10:10:55:  Number of predicted events : 0
+2022-10-28T10:10:55: 
+2022-10-28T10:10:55: +==================+
+2022-10-28T10:10:55: | Save counts cube |
+2022-10-28T10:10:55: +==================+
+2022-10-28T10:10:55:  Counts cube file ..........: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/cntcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2022-10-28T10:11:27: 
+2022-10-28T10:11:27: Application "ctbin" terminated after 46 wall clock seconds, consuming 149.567 seconds of CPU time.

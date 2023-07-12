@@ -1,0 +1,210 @@
+2022-10-28T10:11:23: ********************************************************************************
+2022-10-28T10:11:23: *                                   ctpsfcube                                  *
+2022-10-28T10:11:23: * ---------------------------------------------------------------------------- *
+2022-10-28T10:11:23: * Version: 1.7.4                                                               *
+2022-10-28T10:11:23: ********************************************************************************
+2022-10-28T10:11:25: +============+
+2022-10-28T10:11:25: | Parameters |
+2022-10-28T10:11:25: +============+
+2022-10-28T10:11:25:  inobs .....................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/obs_selected_0.03_100_FOV_4.0_binsz_0.02_GAL.xml
+2022-10-28T10:11:25:  incube ....................: NONE
+2022-10-28T10:11:25:  caldb .....................: [not queried]
+2022-10-28T10:11:25:  irf .......................: [not queried]
+2022-10-28T10:11:25:  outcube ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/psfcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2022-10-28T10:11:25:  ebinalg ...................: LOG
+2022-10-28T10:11:25:  emin ......................: 0.03
+2022-10-28T10:11:25:  emax ......................: 100
+2022-10-28T10:11:25:  enumbins ..................: 88
+2022-10-28T10:11:25:  ebinfile ..................: [not queried]
+2022-10-28T10:11:25:  ebingamma .................: [not queried]
+2022-10-28T10:11:25:  addbounds .................: no
+2022-10-28T10:11:25:  usepnt ....................: no
+2022-10-28T10:11:25:  nxpix .....................: 5
+2022-10-28T10:11:25:  nypix .....................: 5
+2022-10-28T10:11:25:  binsz .....................: 1
+2022-10-28T10:11:25:  coordsys ..................: GAL
+2022-10-28T10:11:25:  proj ......................: CAR
+2022-10-28T10:11:25:  xref ......................: 26.5074469914164
+2022-10-28T10:11:25:  yref ......................: 0.209221686069102
+2022-10-28T10:11:25:  amax ......................: 0.3
+2022-10-28T10:11:25:  anumbins ..................: 200
+2022-10-28T10:11:25:  chatter ...................: 2
+2022-10-28T10:11:25:  clobber ...................: yes
+2022-10-28T10:11:25:  debug .....................: no
+2022-10-28T10:11:25:  mode ......................: ql
+2022-10-28T10:11:25:  logfile ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/ctpsfcube_0.03_100_FOV_4.0_binsz_0.02_GAL.log
+2022-10-28T10:11:25: 
+2022-10-28T10:11:25: +====================+
+2022-10-28T10:11:25: | Input observations |
+2022-10-28T10:11:25: +====================+
+2022-10-28T10:11:25: === GObservations ===
+2022-10-28T10:11:25:  Number of observations ....: 129
+2022-10-28T10:11:25:  Number of models ..........: 0
+2022-10-28T10:11:25:  Number of observed events .: 13957860
+2022-10-28T10:11:25:  Number of predicted events : 0
+2022-10-28T10:11:25: 
+2022-10-28T10:11:25: +=====================+
+2022-10-28T10:11:25: | Initialise PSF cube |
+2022-10-28T10:11:25: +=====================+
+2022-10-28T10:11:25: === GCTACubePsf ===
+2022-10-28T10:11:25:  Filename ..................: 
+2022-10-28T10:11:25: === GEnergies ===
+2022-10-28T10:11:25:  Number of energies ........: 89
+2022-10-28T10:11:25:  Number of delta bins ......: 200
+2022-10-28T10:11:25:  Delta range ...............: 1.875e-06 - 0.298501875 deg
+2022-10-28T10:11:25: === GSkyMap ===
+2022-10-28T10:11:25:  Number of pixels ..........: 25
+2022-10-28T10:11:25:  X axis dimension ..........: 5
+2022-10-28T10:11:25:  Y axis dimension ..........: 5
+2022-10-28T10:11:25:  Number of maps ............: 17800
+2022-10-28T10:11:25:  Shape of maps .............: (200, 89)
+2022-10-28T10:11:25: === GWcsCAR ===
+2022-10-28T10:11:25:  Number of axes ............: 2
+2022-10-28T10:11:25:  Coodinate system ..........: GAL
+2022-10-28T10:11:25:  Projection code ...........: CAR
+2022-10-28T10:11:25:  Projection name ...........: plate carree
+2022-10-28T10:11:25:  Reference coordinate ......: (26.5074469914164, 0.209221686069102)
+2022-10-28T10:11:25:  Reference pixel ...........: (3, 3)
+2022-10-28T10:11:25:  Increment at reference ....: (-1, 1)
+2022-10-28T10:11:25:  (Phi_0, Theta_0) ..........: (0, 0) deg
+2022-10-28T10:11:25:  (Phi_p, Theta_p) ..........: (0, 89.7907783139309) deg
+2022-10-28T10:11:25: 
+2022-10-28T10:11:25: +===================+
+2022-10-28T10:11:25: | Generate PSF cube |
+2022-10-28T10:11:25: +===================+
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000156) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000157) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000158) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000172) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000179) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000187) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000188) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000196) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000205) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000214) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000221) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000233) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000238) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000247) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000255) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000263) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000277) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000292) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000297) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000303) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000309) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000315) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000316) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000320) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000321) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000332) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000339) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000352) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000355) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000357) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000461) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000470) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000482) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000489) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000497) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000506) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000516) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000525) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000533) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000539) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000548) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000554) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000561) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000569) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000579) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000583) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000589) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000597) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000598) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000636) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000676) in point spread function cube computation.
+2022-10-28T10:11:25: Including CTA observation "Inner region" (id=000689) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000698) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000716) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000724) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000728) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000734) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000741) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000742) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000751) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000762) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=000999) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001008) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001015) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001021) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001028) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001034) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001035) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001040) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001052) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001056) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001071) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001075) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001080) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001086) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001088) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001089) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001293) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001301) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001306) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001316) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001322) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001330) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001337) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001342) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001351) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001358) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001365) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001376) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001381) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001385) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001386) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001390) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001528) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001537) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001551) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001559) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001566) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001572) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001581) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001582) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001588) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001594) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001599) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001606) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001612) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001614) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001720) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001728) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001735) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001739) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001748) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001751) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001765) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001766) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001781) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001793) in point spread function cube computation.
+2022-10-28T10:11:26: Including CTA observation "Inner region" (id=001870) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=001878) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=001888) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=001891) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=001933) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=001937) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=001938) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=001943) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=002017) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=002021) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=002022) in point spread function cube computation.
+2022-10-28T10:11:27: Including CTA observation "Inner region" (id=002025) in point spread function cube computation.
+2022-10-28T10:11:27: 
+2022-10-28T10:11:27: +===============+
+2022-10-28T10:11:27: | Save PSF cube |
+2022-10-28T10:11:27: +===============+
+2022-10-28T10:11:27:  PSF cube file .............: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/psfcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2022-10-28T10:11:27: 
+2022-10-28T10:11:27: Application "ctpsfcube" terminated after 4 wall clock seconds, consuming 3.96235 seconds of CPU time.

@@ -1,0 +1,210 @@
+2022-10-28T10:10:55: ********************************************************************************
+2022-10-28T10:10:55: *                                   ctexpcube                                  *
+2022-10-28T10:10:55: * ---------------------------------------------------------------------------- *
+2022-10-28T10:10:55: * Version: 1.7.4                                                               *
+2022-10-28T10:10:55: ********************************************************************************
+2022-10-28T10:10:57: +============+
+2022-10-28T10:10:57: | Parameters |
+2022-10-28T10:10:57: +============+
+2022-10-28T10:10:57:  inobs .....................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/obs_selected_0.03_100_FOV_4.0_binsz_0.02_GAL.xml
+2022-10-28T10:10:57:  incube ....................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/cntcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2022-10-28T10:10:57:  caldb .....................: [not queried]
+2022-10-28T10:10:57:  irf .......................: [not queried]
+2022-10-28T10:10:57:  outcube ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/expcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2022-10-28T10:10:57:  ebinalg ...................: [not queried]
+2022-10-28T10:10:57:  emin ......................: [not queried]
+2022-10-28T10:10:57:  emax ......................: [not queried]
+2022-10-28T10:10:57:  enumbins ..................: [not queried]
+2022-10-28T10:10:57:  ebinfile ..................: [not queried]
+2022-10-28T10:10:57:  ebingamma .................: [not queried]
+2022-10-28T10:10:57:  addbounds .................: no
+2022-10-28T10:10:57:  usepnt ....................: no
+2022-10-28T10:10:57:  nxpix .....................: [not queried]
+2022-10-28T10:10:57:  nypix .....................: [not queried]
+2022-10-28T10:10:57:  binsz .....................: [not queried]
+2022-10-28T10:10:57:  coordsys ..................: [not queried]
+2022-10-28T10:10:57:  proj ......................: [not queried]
+2022-10-28T10:10:57:  xref ......................: [not queried]
+2022-10-28T10:10:57:  yref ......................: [not queried]
+2022-10-28T10:10:57:  publish ...................: no
+2022-10-28T10:10:57:  chatter ...................: 2
+2022-10-28T10:10:57:  clobber ...................: yes
+2022-10-28T10:10:57:  debug .....................: no
+2022-10-28T10:10:57:  mode ......................: ql
+2022-10-28T10:10:57:  logfile ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/ctexpcube_0.03_100_FOV_4.0_binsz_0.02_GAL.log
+2022-10-28T10:10:57: 
+2022-10-28T10:10:57: 
+2022-10-28T10:10:57: +====================+
+2022-10-28T10:10:57: | Input observations |
+2022-10-28T10:10:57: +====================+
+2022-10-28T10:10:57: === GObservations ===
+2022-10-28T10:10:57:  Number of observations ....: 129
+2022-10-28T10:10:57:  Number of models ..........: 0
+2022-10-28T10:10:57:  Number of observed events .: 13957860
+2022-10-28T10:10:57:  Number of predicted events : 0
+2022-10-28T10:10:57: 
+2022-10-28T10:10:57: +==========================+
+2022-10-28T10:10:57: | Initialise exposure cube |
+2022-10-28T10:10:57: +==========================+
+2022-10-28T10:10:57: === GCTACubeExposure ===
+2022-10-28T10:10:57:  Filename ..................: 
+2022-10-28T10:10:57:  Livetime ..................: 0 sec
+2022-10-28T10:10:57: === GEnergies ===
+2022-10-28T10:10:57:  Number of energies ........: 89
+2022-10-28T10:10:57:  Good Time Intervals .......: not defined
+2022-10-28T10:10:57: === GSkyMap ===
+2022-10-28T10:10:57:  Number of pixels ..........: 40000
+2022-10-28T10:10:57:  X axis dimension ..........: 200
+2022-10-28T10:10:57:  Y axis dimension ..........: 200
+2022-10-28T10:10:57:  Number of maps ............: 89
+2022-10-28T10:10:57:  Shape of maps .............: (89)
+2022-10-28T10:10:57: === GWcsCAR ===
+2022-10-28T10:10:57:  Number of axes ............: 2
+2022-10-28T10:10:57:  Coodinate system ..........: GAL
+2022-10-28T10:10:57:  Projection code ...........: CAR
+2022-10-28T10:10:57:  Projection name ...........: plate carree
+2022-10-28T10:10:57:  Reference coordinate ......: (26.507446991, 0.20922168607)
+2022-10-28T10:10:57:  Reference pixel ...........: (100.5, 100.5)
+2022-10-28T10:10:57:  Increment at reference ....: (-0.02, 0.02)
+2022-10-28T10:10:57:  (Phi_0, Theta_0) ..........: (0, 0) deg
+2022-10-28T10:10:57:  (Phi_p, Theta_p) ..........: (0, 89.79077831393) deg
+2022-10-28T10:10:57: 
+2022-10-28T10:10:57: +========================+
+2022-10-28T10:10:57: | Generate exposure cube |
+2022-10-28T10:10:57: +========================+
+2022-10-28T10:10:57: Including CTA observation "Inner region" (id=000156) in exposure cube computation.
+2022-10-28T10:10:57: Including CTA observation "Inner region" (id=000157) in exposure cube computation.
+2022-10-28T10:10:57: Including CTA observation "Inner region" (id=000158) in exposure cube computation.
+2022-10-28T10:10:58: Including CTA observation "Inner region" (id=000172) in exposure cube computation.
+2022-10-28T10:10:58: Including CTA observation "Inner region" (id=000179) in exposure cube computation.
+2022-10-28T10:10:58: Including CTA observation "Inner region" (id=000187) in exposure cube computation.
+2022-10-28T10:10:58: Including CTA observation "Inner region" (id=000188) in exposure cube computation.
+2022-10-28T10:10:58: Including CTA observation "Inner region" (id=000196) in exposure cube computation.
+2022-10-28T10:10:59: Including CTA observation "Inner region" (id=000205) in exposure cube computation.
+2022-10-28T10:10:59: Including CTA observation "Inner region" (id=000214) in exposure cube computation.
+2022-10-28T10:10:59: Including CTA observation "Inner region" (id=000221) in exposure cube computation.
+2022-10-28T10:10:59: Including CTA observation "Inner region" (id=000233) in exposure cube computation.
+2022-10-28T10:10:59: Including CTA observation "Inner region" (id=000238) in exposure cube computation.
+2022-10-28T10:11:00: Including CTA observation "Inner region" (id=000247) in exposure cube computation.
+2022-10-28T10:11:00: Including CTA observation "Inner region" (id=000255) in exposure cube computation.
+2022-10-28T10:11:00: Including CTA observation "Inner region" (id=000263) in exposure cube computation.
+2022-10-28T10:11:00: Including CTA observation "Inner region" (id=000277) in exposure cube computation.
+2022-10-28T10:11:01: Including CTA observation "Inner region" (id=000292) in exposure cube computation.
+2022-10-28T10:11:01: Including CTA observation "Inner region" (id=000297) in exposure cube computation.
+2022-10-28T10:11:01: Including CTA observation "Inner region" (id=000303) in exposure cube computation.
+2022-10-28T10:11:01: Including CTA observation "Inner region" (id=000309) in exposure cube computation.
+2022-10-28T10:11:01: Including CTA observation "Inner region" (id=000315) in exposure cube computation.
+2022-10-28T10:11:02: Including CTA observation "Inner region" (id=000316) in exposure cube computation.
+2022-10-28T10:11:02: Including CTA observation "Inner region" (id=000320) in exposure cube computation.
+2022-10-28T10:11:02: Including CTA observation "Inner region" (id=000321) in exposure cube computation.
+2022-10-28T10:11:02: Including CTA observation "Inner region" (id=000332) in exposure cube computation.
+2022-10-28T10:11:02: Including CTA observation "Inner region" (id=000339) in exposure cube computation.
+2022-10-28T10:11:02: Including CTA observation "Inner region" (id=000352) in exposure cube computation.
+2022-10-28T10:11:03: Including CTA observation "Inner region" (id=000355) in exposure cube computation.
+2022-10-28T10:11:03: Including CTA observation "Inner region" (id=000357) in exposure cube computation.
+2022-10-28T10:11:03: Including CTA observation "Inner region" (id=000461) in exposure cube computation.
+2022-10-28T10:11:03: Including CTA observation "Inner region" (id=000470) in exposure cube computation.
+2022-10-28T10:11:04: Including CTA observation "Inner region" (id=000482) in exposure cube computation.
+2022-10-28T10:11:04: Including CTA observation "Inner region" (id=000489) in exposure cube computation.
+2022-10-28T10:11:04: Including CTA observation "Inner region" (id=000497) in exposure cube computation.
+2022-10-28T10:11:04: Including CTA observation "Inner region" (id=000506) in exposure cube computation.
+2022-10-28T10:11:05: Including CTA observation "Inner region" (id=000516) in exposure cube computation.
+2022-10-28T10:11:05: Including CTA observation "Inner region" (id=000525) in exposure cube computation.
+2022-10-28T10:11:05: Including CTA observation "Inner region" (id=000533) in exposure cube computation.
+2022-10-28T10:11:05: Including CTA observation "Inner region" (id=000539) in exposure cube computation.
+2022-10-28T10:11:05: Including CTA observation "Inner region" (id=000548) in exposure cube computation.
+2022-10-28T10:11:05: Including CTA observation "Inner region" (id=000554) in exposure cube computation.
+2022-10-28T10:11:06: Including CTA observation "Inner region" (id=000561) in exposure cube computation.
+2022-10-28T10:11:06: Including CTA observation "Inner region" (id=000569) in exposure cube computation.
+2022-10-28T10:11:06: Including CTA observation "Inner region" (id=000579) in exposure cube computation.
+2022-10-28T10:11:06: Including CTA observation "Inner region" (id=000583) in exposure cube computation.
+2022-10-28T10:11:06: Including CTA observation "Inner region" (id=000589) in exposure cube computation.
+2022-10-28T10:11:07: Including CTA observation "Inner region" (id=000597) in exposure cube computation.
+2022-10-28T10:11:07: Including CTA observation "Inner region" (id=000598) in exposure cube computation.
+2022-10-28T10:11:07: Including CTA observation "Inner region" (id=000636) in exposure cube computation.
+2022-10-28T10:11:07: Including CTA observation "Inner region" (id=000676) in exposure cube computation.
+2022-10-28T10:11:07: Including CTA observation "Inner region" (id=000689) in exposure cube computation.
+2022-10-28T10:11:08: Including CTA observation "Inner region" (id=000698) in exposure cube computation.
+2022-10-28T10:11:08: Including CTA observation "Inner region" (id=000716) in exposure cube computation.
+2022-10-28T10:11:08: Including CTA observation "Inner region" (id=000724) in exposure cube computation.
+2022-10-28T10:11:08: Including CTA observation "Inner region" (id=000728) in exposure cube computation.
+2022-10-28T10:11:08: Including CTA observation "Inner region" (id=000734) in exposure cube computation.
+2022-10-28T10:11:09: Including CTA observation "Inner region" (id=000741) in exposure cube computation.
+2022-10-28T10:11:09: Including CTA observation "Inner region" (id=000742) in exposure cube computation.
+2022-10-28T10:11:09: Including CTA observation "Inner region" (id=000751) in exposure cube computation.
+2022-10-28T10:11:09: Including CTA observation "Inner region" (id=000762) in exposure cube computation.
+2022-10-28T10:11:09: Including CTA observation "Inner region" (id=000999) in exposure cube computation.
+2022-10-28T10:11:10: Including CTA observation "Inner region" (id=001008) in exposure cube computation.
+2022-10-28T10:11:10: Including CTA observation "Inner region" (id=001015) in exposure cube computation.
+2022-10-28T10:11:10: Including CTA observation "Inner region" (id=001021) in exposure cube computation.
+2022-10-28T10:11:10: Including CTA observation "Inner region" (id=001028) in exposure cube computation.
+2022-10-28T10:11:11: Including CTA observation "Inner region" (id=001034) in exposure cube computation.
+2022-10-28T10:11:11: Including CTA observation "Inner region" (id=001035) in exposure cube computation.
+2022-10-28T10:11:11: Including CTA observation "Inner region" (id=001040) in exposure cube computation.
+2022-10-28T10:11:11: Including CTA observation "Inner region" (id=001052) in exposure cube computation.
+2022-10-28T10:11:11: Including CTA observation "Inner region" (id=001056) in exposure cube computation.
+2022-10-28T10:11:11: Including CTA observation "Inner region" (id=001071) in exposure cube computation.
+2022-10-28T10:11:12: Including CTA observation "Inner region" (id=001075) in exposure cube computation.
+2022-10-28T10:11:12: Including CTA observation "Inner region" (id=001080) in exposure cube computation.
+2022-10-28T10:11:12: Including CTA observation "Inner region" (id=001086) in exposure cube computation.
+2022-10-28T10:11:12: Including CTA observation "Inner region" (id=001088) in exposure cube computation.
+2022-10-28T10:11:13: Including CTA observation "Inner region" (id=001089) in exposure cube computation.
+2022-10-28T10:11:13: Including CTA observation "Inner region" (id=001293) in exposure cube computation.
+2022-10-28T10:11:13: Including CTA observation "Inner region" (id=001301) in exposure cube computation.
+2022-10-28T10:11:13: Including CTA observation "Inner region" (id=001306) in exposure cube computation.
+2022-10-28T10:11:13: Including CTA observation "Inner region" (id=001316) in exposure cube computation.
+2022-10-28T10:11:14: Including CTA observation "Inner region" (id=001322) in exposure cube computation.
+2022-10-28T10:11:14: Including CTA observation "Inner region" (id=001330) in exposure cube computation.
+2022-10-28T10:11:14: Including CTA observation "Inner region" (id=001337) in exposure cube computation.
+2022-10-28T10:11:14: Including CTA observation "Inner region" (id=001342) in exposure cube computation.
+2022-10-28T10:11:15: Including CTA observation "Inner region" (id=001351) in exposure cube computation.
+2022-10-28T10:11:15: Including CTA observation "Inner region" (id=001358) in exposure cube computation.
+2022-10-28T10:11:15: Including CTA observation "Inner region" (id=001365) in exposure cube computation.
+2022-10-28T10:11:15: Including CTA observation "Inner region" (id=001376) in exposure cube computation.
+2022-10-28T10:11:15: Including CTA observation "Inner region" (id=001381) in exposure cube computation.
+2022-10-28T10:11:15: Including CTA observation "Inner region" (id=001385) in exposure cube computation.
+2022-10-28T10:11:16: Including CTA observation "Inner region" (id=001386) in exposure cube computation.
+2022-10-28T10:11:16: Including CTA observation "Inner region" (id=001390) in exposure cube computation.
+2022-10-28T10:11:16: Including CTA observation "Inner region" (id=001528) in exposure cube computation.
+2022-10-28T10:11:16: Including CTA observation "Inner region" (id=001537) in exposure cube computation.
+2022-10-28T10:11:16: Including CTA observation "Inner region" (id=001551) in exposure cube computation.
+2022-10-28T10:11:17: Including CTA observation "Inner region" (id=001559) in exposure cube computation.
+2022-10-28T10:11:17: Including CTA observation "Inner region" (id=001566) in exposure cube computation.
+2022-10-28T10:11:17: Including CTA observation "Inner region" (id=001572) in exposure cube computation.
+2022-10-28T10:11:17: Including CTA observation "Inner region" (id=001581) in exposure cube computation.
+2022-10-28T10:11:17: Including CTA observation "Inner region" (id=001582) in exposure cube computation.
+2022-10-28T10:11:18: Including CTA observation "Inner region" (id=001588) in exposure cube computation.
+2022-10-28T10:11:18: Including CTA observation "Inner region" (id=001594) in exposure cube computation.
+2022-10-28T10:11:18: Including CTA observation "Inner region" (id=001599) in exposure cube computation.
+2022-10-28T10:11:18: Including CTA observation "Inner region" (id=001606) in exposure cube computation.
+2022-10-28T10:11:18: Including CTA observation "Inner region" (id=001612) in exposure cube computation.
+2022-10-28T10:11:19: Including CTA observation "Inner region" (id=001614) in exposure cube computation.
+2022-10-28T10:11:19: Including CTA observation "Inner region" (id=001720) in exposure cube computation.
+2022-10-28T10:11:19: Including CTA observation "Inner region" (id=001728) in exposure cube computation.
+2022-10-28T10:11:19: Including CTA observation "Inner region" (id=001735) in exposure cube computation.
+2022-10-28T10:11:19: Including CTA observation "Inner region" (id=001739) in exposure cube computation.
+2022-10-28T10:11:20: Including CTA observation "Inner region" (id=001748) in exposure cube computation.
+2022-10-28T10:11:20: Including CTA observation "Inner region" (id=001751) in exposure cube computation.
+2022-10-28T10:11:20: Including CTA observation "Inner region" (id=001765) in exposure cube computation.
+2022-10-28T10:11:20: Including CTA observation "Inner region" (id=001766) in exposure cube computation.
+2022-10-28T10:11:20: Including CTA observation "Inner region" (id=001781) in exposure cube computation.
+2022-10-28T10:11:21: Including CTA observation "Inner region" (id=001793) in exposure cube computation.
+2022-10-28T10:11:21: Including CTA observation "Inner region" (id=001870) in exposure cube computation.
+2022-10-28T10:11:21: Including CTA observation "Inner region" (id=001878) in exposure cube computation.
+2022-10-28T10:11:21: Including CTA observation "Inner region" (id=001888) in exposure cube computation.
+2022-10-28T10:11:21: Including CTA observation "Inner region" (id=001891) in exposure cube computation.
+2022-10-28T10:11:22: Including CTA observation "Inner region" (id=001933) in exposure cube computation.
+2022-10-28T10:11:22: Including CTA observation "Inner region" (id=001937) in exposure cube computation.
+2022-10-28T10:11:22: Including CTA observation "Inner region" (id=001938) in exposure cube computation.
+2022-10-28T10:11:22: Including CTA observation "Inner region" (id=001943) in exposure cube computation.
+2022-10-28T10:11:22: Including CTA observation "Inner region" (id=002017) in exposure cube computation.
+2022-10-28T10:11:23: Including CTA observation "Inner region" (id=002021) in exposure cube computation.
+2022-10-28T10:11:23: Including CTA observation "Inner region" (id=002022) in exposure cube computation.
+2022-10-28T10:11:23: Including CTA observation "Inner region" (id=002025) in exposure cube computation.
+2022-10-28T10:11:23: 
+2022-10-28T10:11:23: +====================+
+2022-10-28T10:11:23: | Save exposure cube |
+2022-10-28T10:11:23: +====================+
+2022-10-28T10:11:23:  Exposure cube file ........: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/expcube_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2022-10-28T10:11:27: 
+2022-10-28T10:11:27: Application "ctexpcube" terminated after 32 wall clock seconds, consuming 31.96 seconds of CPU time.
