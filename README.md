@@ -15,7 +15,7 @@ vold4 (12 free pars, converged):
   - out of field-of-view sources are fixed
 - pulsar model is not included
 
-vold5 (12 free pars, in progress): 
+vold5 (18 free pars, in progress): 
 - position is fixed for all the sources
 - spectra:
   - close field-of-view sources are free
