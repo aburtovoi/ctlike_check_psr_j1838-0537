@@ -41,8 +41,8 @@
   </source>
   <source name="R000103_00006_J1842-0507" type="ExtendedSource" ts="3094.569" tscalc="1">
     <spectrum type="PowerLaw">
-      <parameter name="Prefactor" value="2.43664056676775" error="0.0484718585691061" scale="1e-18" min="0" free="1" />
-      <parameter name="Index" value="2.37483669228631" error="0.0136491119112332" scale="-1" min="-0" max="9" free="1" />
+      <parameter name="Prefactor" value="2.43664056676775" error="0.0484718585691061" scale="1e-18" min="0" free="0" />
+      <parameter name="Index" value="2.37483669228631" error="0.0136491119112332" scale="-1" min="-0" max="9" free="0" />
       <parameter name="PivotEnergy" value="1" scale="1000000" free="0" />
     </spectrum>
     <spatialModel type="RadialGaussian">
@@ -53,8 +53,8 @@
   </source>
   <source name="R000103_00003_J1841-0533" type="ExtendedSource" ts="14532.659" tscalc="1">
     <spectrum type="PowerLaw">
-      <parameter name="Prefactor" value="7.04199303123204" error="0.0678353150831534" scale="1e-18" min="0" free="1" />
-      <parameter name="Index" value="2.43661829705365" error="0.00638754865637057" scale="-1" min="-0" max="9" free="1" />
+      <parameter name="Prefactor" value="7.04199303123204" error="0.0678353150831534" scale="1e-18" min="0" free="0" />
+      <parameter name="Index" value="2.43661829705365" error="0.00638754865637057" scale="-1" min="-0" max="9" free="0" />
       <parameter name="PivotEnergy" value="1" scale="1000000" free="0" />
     </spectrum>
     <spatialModel type="RadialGaussian">
@@ -65,8 +65,8 @@
   </source>
   <source name="R000103_00005_J1839-0557" type="ExtendedSource" ts="4549.171" tscalc="1">
     <spectrum type="PowerLaw">
-      <parameter name="Prefactor" value="3.32978484901249" error="0.0551754627492741" scale="1e-18" min="0" free="1" />
-      <parameter name="Index" value="2.34198128425462" error="0.0111579705142293" scale="-1" min="-0" max="9" free="1" />
+      <parameter name="Prefactor" value="3.32978484901249" error="0.0551754627492741" scale="1e-18" min="0" free="0" />
+      <parameter name="Index" value="2.34198128425462" error="0.0111579705142293" scale="-1" min="-0" max="9" free="0" />
       <parameter name="PivotEnergy" value="1" scale="1000000" free="0" />
     </spectrum>
     <spatialModel type="RadialGaussian">
@@ -77,8 +77,8 @@
   </source>
   <source name="R000103_00010_J1839-0535" type="ExtendedSource" ts="63.142" tscalc="1">
     <spectrum type="PowerLaw">
-      <parameter name="Prefactor" value="0.0351429353798914" error="0.00978596933013389" scale="1e-18" min="0" free="1" />
-      <parameter name="Index" value="3.19244164373215" error="0.141880528208187" scale="-1" min="-0" max="9" free="1" />
+      <parameter name="Prefactor" value="0.0351429353798914" error="0.00978596933013389" scale="1e-18" min="0" free="0" />
+      <parameter name="Index" value="3.19244164373215" error="0.141880528208187" scale="-1" min="-0" max="9" free="0" />
       <parameter name="PivotEnergy" value="1" scale="1000000" free="0" />
     </spectrum>
     <spatialModel type="RadialDisk">
