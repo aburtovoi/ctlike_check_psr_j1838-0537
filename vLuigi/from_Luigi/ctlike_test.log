@@ -1,0 +1,459 @@
+2023-07-13T14:55:15: ********************************************************************************
+2023-07-13T14:55:15: *                                    ctlike                                    *
+2023-07-13T14:55:15: * ---------------------------------------------------------------------------- *
+2023-07-13T14:55:15: * Version: 1.7.4                                                               *
+2023-07-13T14:55:15: ********************************************************************************
+2023-07-13T14:55:15: +============+
+2023-07-13T14:55:15: | Parameters |
+2023-07-13T14:55:15: +============+
+2023-07-13T14:55:15:  inobs .....................: [not queried]
+2023-07-13T14:55:15:  inmodel ...................: [not queried]
+2023-07-13T14:55:15:  expcube ...................: [not queried]
+2023-07-13T14:55:15:  psfcube ...................: [not queried]
+2023-07-13T14:55:15:  edispcube .................: [not queried]
+2023-07-13T14:55:15:  bkgcube ...................: [not queried]
+2023-07-13T14:55:15:  caldb .....................: [not queried]
+2023-07-13T14:55:15:  irf .......................: [not queried]
+2023-07-13T14:55:15:  edisp .....................: no
+2023-07-13T14:55:15:  outmodel ..................: [not queried]
+2023-07-13T14:55:15:  outcovmat .................: NONE
+2023-07-13T14:55:15:  statistic .................: DEFAULT
+2023-07-13T14:55:15:  refit .....................: no
+2023-07-13T14:55:15:  like_accuracy .............: 0.005
+2023-07-13T14:55:15:  max_iter ..................: 50
+2023-07-13T14:55:15:  fix_spat_for_ts ...........: no
+2023-07-13T14:55:15:  nthreads ..................: 0
+2023-07-13T14:55:15:  chatter ...................: 2
+2023-07-13T14:55:15:  clobber ...................: yes
+2023-07-13T14:55:15:  debug .....................: yes
+2023-07-13T14:55:15:  mode ......................: ql
+2023-07-13T14:55:15:  logfile ...................: ctlike_test.log
+2023-07-13T14:55:15: 
+2023-07-13T14:55:15: WARNING: Energy dispersion will *NOT* be considered for the computation. To consider
+2023-07-13T14:55:15:          energy dispersion, please set the "edisp" parameter to "yes". Be aware that
+2023-07-13T14:55:15:          using energy dispersion will considerably slow down the computations.
+2023-07-13T14:55:15: 
+2023-07-13T14:55:15: +===================+
+2023-07-13T14:55:15: | Input observation |
+2023-07-13T14:55:15: +===================+
+2023-07-13T14:55:15: === GObservations ===
+2023-07-13T14:55:15:  Number of observations ....: 1
+2023-07-13T14:55:15:  Number of models ..........: 20
+2023-07-13T14:55:15:  Number of observed events .: 4520696
+2023-07-13T14:55:15:  Number of predicted events : 4519442.61690602
+2023-07-13T14:55:15: 
+2023-07-13T14:55:15: +=================================+
+2023-07-13T14:55:15: | Maximum likelihood optimisation |
+2023-07-13T14:55:15: +=================================+
+2023-07-13T14:57:09:  >Iteration   0: -logL=-2184883.430, Lambda=1.0e-03
+2023-07-13T14:57:09:    Parameter "Prefactor" drives optimization step (step=0.25632)
+2023-07-13T14:59:05:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-13T14:59:05:    Parameter "CutoffEnergy" has zero curvature. Fix parameter.
+2023-07-13T14:59:05:   Iteration   1: -logL=-2184883.430, Lambda=1.0e-03, delta=-336.356, step=2.6e-01, max(|grad|)=81398.715638 [Curvature:117] (stalled)
+2023-07-13T14:59:05:    Parameter "Prefactor" does not drive optimization step anymore.
+2023-07-13T14:59:05:    Parameter "Prefactor" drives optimization step (step=0.977752)
+2023-07-13T15:00:58:    Parameter "Index" has zero curvature. Fix parameter.
+2023-07-13T15:00:58:  >Iteration   2: -logL=-2184954.281, Lambda=1.0e-02, delta=70.850, step=9.8e-01, max(|grad|)=32239.692861 [Curvature:117]
+2023-07-13T15:00:58:    Parameter "Prefactor" hits minimum: -0.0140571 < 0 (1)
+2023-07-13T15:02:51:  >Iteration   3: -logL=-2185141.845, Lambda=1.0e-03, delta=187.565, step=1.0e+00, max(|grad|)=769.936825 [Curvature:117]
+2023-07-13T15:02:51:    Parameter "Prefactor" hits minimum: -0.0140707 < 0 (2)
+2023-07-13T15:04:40:  >Iteration   4: -logL=-2185142.126, Lambda=1.0e-04, delta=0.281, step=1.0e+00, max(|grad|)=31.379014 [Prefactor:131]
+2023-07-13T15:04:40:    Parameter "Prefactor" hits minimum: -0.0140728 < 0 (3)
+2023-07-13T15:06:36:  >Iteration   5: -logL=-2185142.126, Lambda=1.0e-05, delta=0.000, step=1.0e+00, max(|grad|)=31.423488 [Prefactor:131]
+2023-07-13T15:06:36:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-13T15:06:36:    Free parameter "CutoffEnergy" after convergence was reached with frozen parameter.
+2023-07-13T15:06:36:    Free parameter "Index" after convergence was reached with frozen parameter.
+2023-07-13T15:08:32: 
+2023-07-13T15:08:32: +=========================================+
+2023-07-13T15:08:32: | Maximum likelihood optimisation results |
+2023-07-13T15:08:32: +=========================================+
+2023-07-13T15:08:32: === GOptimizerLM ===
+2023-07-13T15:08:32:  Optimized function value ..: -2185142.126
+2023-07-13T15:08:32:  Absolute precision ........: 0.005
+2023-07-13T15:08:32:  Acceptable value decrease .: 2
+2023-07-13T15:08:32:  Optimization status .......: converged
+2023-07-13T15:08:32:  Number of parameters ......: 141
+2023-07-13T15:08:32:  Number of free parameters .: 11
+2023-07-13T15:08:32:  Number of iterations ......: 5
+2023-07-13T15:08:32:  Lambda ....................: 1e-06
+2023-07-13T15:08:32:  Maximum log likelihood ....: 2185142.126
+2023-07-13T15:08:32:  Observed events  (Nobs) ...: 4520696.000
+2023-07-13T15:08:32:  Predicted events (Npred) ..: 4519478.578 (Nobs - Npred = 1217.42202196829)
+2023-07-13T15:08:32: === GModels ===
+2023-07-13T15:08:32:  Number of models ..........: 20
+2023-07-13T15:08:32:  Number of parameters ......: 141
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000103_00002_J1847-0616
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 7660.066
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialDisk" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 8
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 281.809955447362 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -6.24842225832808 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Radius ...................: 0.0146245825187935 [0.0002778,3] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 4
+2023-07-13T15:08:32:   Prefactor ................: 4.2604506299741e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -1.96615434177441 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   CutoffEnergy .............: 548428.729010523 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000104_00002_J1846-0258
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 7973.012
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialDisk" * "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 7
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 281.600909953349 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -2.97435090409174 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Radius ...................: 0.0140060046134016 [0.0002778,3] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 6.6613974013023e-19 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.40599635474479 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000104_00003_J1844-0305
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 2681.844
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialDisk" * "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 7
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 281.171844613258 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -3.09800409223132 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Radius ...................: 0.0445777907967354 [0.0002778,3] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 3.68218201761485e-19 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.49092535114296 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000102_00010_J1837-0759
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 208.375
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 7
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.289853742394 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -7.99485520942451 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Sigma ....................: 0.0333416946876985 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 9.51162058556935e-20 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.59982196404138 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000102_00006_J1834-0705
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 2642.53
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialDisk" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 8
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 278.529595769042 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -7.10833511678706 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Radius ...................: 0.208724968932644 [0.0002778,3] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 4
+2023-07-13T15:08:32:   Prefactor ................: 2.14557347053285e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.23585852133686 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   CutoffEnergy .............: 862634.404391805 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000104_00001_J1843-0403
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 40580.766
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialDisk" * "LogParabola" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 8
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 280.774162837681 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -4.06248657669318 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Radius ...................: 0.0182863487677975 [0.0002778,3] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 4
+2023-07-13T15:08:32:   Prefactor ................: 1.60192846833514e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -3.77146258815703 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   Curvature ................: -0.566420114042711 [-5,5]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000103_00006_J1842-0507
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 2932.171
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 7
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 280.547528893038 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -5.16375551367261 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Sigma ....................: 0.253856860197786 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 2.44651019585374e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.41215498061269 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000103_00003_J1841-0533
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 14006.575
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 7
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 280.256140182909 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -5.51581519249404 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Sigma ....................: 0.253310736072686 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 6.86734521168102e-18 +/- 5.34428877868298e-20 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.41392411288224 +/- 0.00516885467456975 [-9,0]  (free,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000103_00005_J1839-0557
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 4247.899
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 7
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.965252933682 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -5.85330912694265 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Sigma ....................: 0.257099751507107 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 3.46193125060012e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.43226606298838 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000103_00010_J1839-0535
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 34.299
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialDisk" * "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 7
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.812718255179 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -5.59537006013568 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Radius ...................: 0.0493183221060182 [0.0002778,3] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 2.88148398208143e-20 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -3.15655717293581 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000103_00009_J1838-0621
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 47.573
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialDisk" * "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 7
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.757125027336 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -6.31369744972392 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Radius ...................: 0.35065211796876 [0.0002778,3] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 1.58135760660059e-19 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.16480416752107 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000102_00008_J1838-0655
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 2540.871
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialGaussian" * "LogParabola" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 8
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.574872866032 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -6.92930234947727 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Sigma ....................: 0.0545986498465035 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 4
+2023-07-13T15:08:32:   Prefactor ................: 8.0901572022029e-19 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.35507942052281 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   Curvature ................: -0.0397314216084191 [-5,5]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000102_00009_J1836-0656
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 5727.94
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialGaussian" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 8
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.326562506354 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -6.94365284971346 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Sigma ....................: 0.0522620739930882 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 4
+2023-07-13T15:08:32:   Prefactor ................: 1.78631169422097e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.30719562832623 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   CutoffEnergy .............: 72342091.1457531 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000102_00004_J1837-0656
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 5639.757
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialGaussian" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 8
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.448351357449 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -6.93520483782059 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Sigma ....................: 0.0487384173774889 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 4
+2023-07-13T15:08:32:   Prefactor ................: 1.90229429216682e-18 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.29250984507108 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   CutoffEnergy .............: 47497317.4278495 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000102_00013_J1836-0635
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 823.763
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialGaussian" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 8
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.196591854328 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -6.95324005328896 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Sigma ....................: 0.049482630241969 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 4
+2023-07-13T15:08:32:   Prefactor ................: 4.26887023208354e-19 [0,infty[ ph/cm2/s/MeV (fixed,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.19257592915591 [-9,0]  (fixed,scale=-1,gradient)
+2023-07-13T15:08:32:   CutoffEnergy .............: 15013995.0014358 [10000,500000000] MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000102_00001_J1837-0636
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 601318.448
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialDisk" * "LogParabola" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 8
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.359881124033 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -6.57972978401895 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Radius ...................: 0.0109836084790845 [0.0002778,3] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 4
+2023-07-13T15:08:32:   Prefactor ................: 2.38499599106857e-17 +/- 8.7147090940289e-20 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -2.87860480925136 +/- 0.00344054495316056 [-9,0]  (free,scale=-1,gradient)
+2023-07-13T15:08:32:   Curvature ................: 0.0110798912238738 +/- 0.00107330136074163 [-5,5]  (free,scale=-1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: R000102_00011_J1838-0621
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Test Statistic ............: 1601.018
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: ExtendedSource
+2023-07-13T15:08:32:  Model components ..........: "RadialGaussian" * "ExponentialCutoffPowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 8
+2023-07-13T15:08:32:  Number of spatial par's ...: 3
+2023-07-13T15:08:32:   RA .......................: 279.360161633865 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -6.58006429188533 deg (fixed,scale=1)
+2023-07-13T15:08:32:   Sigma ....................: 0.0355745560264236 [0.0002778,1.68] deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 4
+2023-07-13T15:08:32:   Prefactor ................: 5.55947749733633e-15 +/- 9.70287603571392e-15 [0,infty[ ph/cm2/s/MeV (free,scale=1e-18,gradient)
+2023-07-13T15:08:32:   Index ....................: -0.18610831519637 +/- 0.6150655397187 [-9,0]  (free,scale=-1,gradient)
+2023-07-13T15:08:32:   CutoffEnergy .............: 49392.6972216491 +/- 10105.0608772194 [10000,500000000] MeV (free,scale=1000000,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: IEM
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: DiffuseSource
+2023-07-13T15:08:32:  Model components ..........: "MapCubeFunction" * "ConstantValue" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 3
+2023-07-13T15:08:32:  Number of spatial par's ...: 1
+2023-07-13T15:08:32:   Normalization ............: 1 [0.001,1000]  (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of spectral par's ..: 1
+2023-07-13T15:08:32:   Value ....................: 1 [1e-05,100000]  (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
+2023-07-13T15:08:32: === GCTAModelCubeBackground ===
+2023-07-13T15:08:32:  Name ......................: BackgroundModel
+2023-07-13T15:08:32:  Instruments ...............: CTA, HESS, MAGIC, VERITAS
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 4
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 1.01129102603274 +/- 0.000550641932239262 [0.01,100] ph/cm2/s/MeV (free,scale=1,gradient)
+2023-07-13T15:08:32:   Index ....................: 0 [-5,5]  (fixed,scale=1,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32: === GModelSky ===
+2023-07-13T15:08:32:  Name ......................: PSR_J1838-0537
+2023-07-13T15:08:32:  Instruments ...............: all
+2023-07-13T15:08:32:  Observation identifiers ...: all
+2023-07-13T15:08:32:  Model type ................: PointSource
+2023-07-13T15:08:32:  Model components ..........: "PointSource" * "PowerLaw" * "Constant"
+2023-07-13T15:08:32:  Number of parameters ......: 6
+2023-07-13T15:08:32:  Number of spatial par's ...: 2
+2023-07-13T15:08:32:   RA .......................: 279.733403884583 deg (fixed,scale=1)
+2023-07-13T15:08:32:   DEC ......................: -5.61929989166667 deg (fixed,scale=1)
+2023-07-13T15:08:32:  Number of spectral par's ..: 3
+2023-07-13T15:08:32:   Prefactor ................: 0 +/- 5.57613143127354e-17 [0,infty[ ph/cm2/s/MeV (free,scale=1e-15,gradient)
+2023-07-13T15:08:32:   Index ....................: -3.2149177236186 +/- 0 [-10,10]  (free,scale=-3,gradient)
+2023-07-13T15:08:32:   PivotEnergy ..............: 50000 MeV (fixed,scale=50000,gradient)
+2023-07-13T15:08:32:  Number of temporal par's ..: 1
+2023-07-13T15:08:32:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2023-07-13T15:08:32:  Number of scale par's .....: 0
