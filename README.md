@@ -7,6 +7,7 @@ vold3 (35 free pars, stalled):
   - out of field-of-view sources are fixed
 - pulsar model is included (Src006)
 
+
 vold4 (12 free pars, converged): 
 - spatial model is fixed for all the sources
 - spectra:
@@ -14,6 +15,7 @@ vold4 (12 free pars, converged):
   - far field-of-view sources are fixed
   - out of field-of-view sources are fixed
 - pulsar model is not included
+
 
 vold5 (18 free pars, converged): 
 - spatial model is fixed for all the sources
@@ -24,11 +26,13 @@ vold5 (18 free pars, converged):
   - out of field-of-view sources are fixed
 - pulsar model is not included
 
+
 vLuigi (11 free pars, converged):
 - similar to vold5, but with:
   - pulsar model
   - fixed Index of BackgroundModel
   - fully fixed following sources: R000103_00006_J1842-0507, R000103_00005_J1839-0557, R000103_00010_J1839-0535, R000103_00009_J1838-0621
+
 
 vold6 (16 free pars, aborted - to be re-done):
 - spatial model is fixed for all the sources (except for R000102_00001_J1837-0636 and R000102_00011_J1838-0621)
@@ -40,7 +44,8 @@ vold6 (16 free pars, aborted - to be re-done):
   - out of field-of-view sources are fixed
 - pulsar model is not included
 
-vold5-psr (20 free pars, in progress):
+
+vold5-psr (20 free pars, stalled):
 - spatial model is fixed for all the sources
 - spectra:
   - close field-of-view sources are free
