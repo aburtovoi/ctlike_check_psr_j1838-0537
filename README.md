@@ -34,7 +34,7 @@ vLuigi (11 free pars, converged):
   - fully fixed following sources: R000103_00006_J1842-0507, R000103_00005_J1839-0557, R000103_00010_J1839-0535, R000103_00009_J1838-0621
 
 
-vold5-psr (20 free pars, in progress):
+vold5-psr (20 free pars, converged):
 - spatial model is fixed for all the sources
 - spectra:
   - close field-of-view sources are free

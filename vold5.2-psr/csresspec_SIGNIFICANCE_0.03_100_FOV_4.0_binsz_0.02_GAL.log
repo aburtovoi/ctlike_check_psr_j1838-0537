@@ -1,0 +1,102 @@
+2023-07-20T00:22:04: ********************************************************************************
+2023-07-20T00:22:04: *                                   csresspec                                  *
+2023-07-20T00:22:04: * ---------------------------------------------------------------------------- *
+2023-07-20T00:22:04: * Version: 1.7.4                                                               *
+2023-07-20T00:22:04: ********************************************************************************
+2023-07-20T00:22:04: +============+
+2023-07-20T00:22:04: | Parameters |
+2023-07-20T00:22:04: +============+
+2023-07-20T00:22:04:  inobs .....................: [not queried]
+2023-07-20T00:22:04:  inmodel ...................: [not queried]
+2023-07-20T00:22:04:  modcube ...................: [not queried]
+2023-07-20T00:22:04:  expcube ...................: [not queried]
+2023-07-20T00:22:04:  psfcube ...................: [not queried]
+2023-07-20T00:22:04:  edispcube .................: [not queried]
+2023-07-20T00:22:04:  bkgcube ...................: [not queried]
+2023-07-20T00:22:04:  caldb .....................: [not queried]
+2023-07-20T00:22:04:  irf .......................: [not queried]
+2023-07-20T00:22:04:  edisp .....................: no
+2023-07-20T00:22:04:  outfile ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/resspec_SIGNIFICANCE_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2023-07-20T00:22:04:  statistic .................: DEFAULT
+2023-07-20T00:22:04:  components ................: yes
+2023-07-20T00:22:04:  ebinalg ...................: [not queried]
+2023-07-20T00:22:04:  emin ......................: [not queried]
+2023-07-20T00:22:04:  emax ......................: [not queried]
+2023-07-20T00:22:04:  enumbins ..................: [not queried]
+2023-07-20T00:22:04:  ebinfile ..................: [not queried]
+2023-07-20T00:22:04:  ebingamma .................: [not queried]
+2023-07-20T00:22:04:  stack .....................: [not queried]
+2023-07-20T00:22:04:  coordsys ..................: [not queried]
+2023-07-20T00:22:04:  proj ......................: [not queried]
+2023-07-20T00:22:04:  xref ......................: [not queried]
+2023-07-20T00:22:04:  yref ......................: [not queried]
+2023-07-20T00:22:04:  nxpix .....................: [not queried]
+2023-07-20T00:22:04:  nypix .....................: [not queried]
+2023-07-20T00:22:04:  binsz .....................: [not queried]
+2023-07-20T00:22:04:  mask ......................: yes
+2023-07-20T00:22:04:  ra ........................: 279.733403884583
+2023-07-20T00:22:04:  dec .......................: -5.61929989166666
+2023-07-20T00:22:04:  rad .......................: 0.2
+2023-07-20T00:22:04:  regfile ...................: NONE
+2023-07-20T00:22:04:  algorithm .................: SIGNIFICANCE
+2023-07-20T00:22:04:  publish ...................: no
+2023-07-20T00:22:04:  chatter ...................: 2
+2023-07-20T00:22:04:  clobber ...................: yes
+2023-07-20T00:22:04:  debug .....................: no
+2023-07-20T00:22:04:  mode ......................: ql
+2023-07-20T00:22:04:  logfile ...................: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/csresspec_SIGNIFICANCE_0.03_100_FOV_4.0_binsz_0.02_GAL.log
+2023-07-20T00:22:04: 
+2023-07-20T00:22:04: WARNING: Energy dispersion will *NOT* be considered for the computation. To consider
+2023-07-20T00:22:04:          energy dispersion, please set the "edisp" parameter to "yes". Be aware that
+2023-07-20T00:22:04:          using energy dispersion will considerably slow down the computations.
+2023-07-20T00:22:04: 
+2023-07-20T00:22:04: +====================+
+2023-07-20T00:22:04: | Observation census |
+2023-07-20T00:22:04: +====================+
+2023-07-20T00:22:04:  Unbinned CTA observations .: 0
+2023-07-20T00:22:04:  Binned CTA observations ...: 1
+2023-07-20T00:22:04:  On/off CTA observations ...: 0
+2023-07-20T00:22:04:  Other observations ........: 0
+2023-07-20T00:22:04: 
+2023-07-20T00:22:04: +=============+
+2023-07-20T00:22:04: | Observation |
+2023-07-20T00:22:04: +=============+
+2023-07-20T00:22:04: === GObservations ===
+2023-07-20T00:22:04:  Number of observations ....: 1
+2023-07-20T00:22:04:  Number of models ..........: 20
+2023-07-20T00:22:04:  Number of observed events .: 4520696
+2023-07-20T00:22:04:  Number of predicted events : 1732286.39414532
+2023-07-20T00:22:04: 
+2023-07-20T00:22:04: +=========================+
+2023-07-20T00:22:04: | Processing Observations |
+2023-07-20T00:22:04: +=========================+
+2023-07-20T00:22:04: Computing model cube
+2023-07-20T00:23:34: Computing counts, model, and residual spectra
+2023-07-20T00:23:41:  Computing model component .: R000103_00002_J1847-0616
+2023-07-20T00:23:49:  Computing model component .: R000104_00002_J1846-0258
+2023-07-20T00:23:58:  Computing model component .: R000104_00003_J1844-0305
+2023-07-20T00:24:04:  Computing model component .: R000102_00010_J1837-0759
+2023-07-20T00:24:14:  Computing model component .: R000102_00006_J1834-0705
+2023-07-20T00:24:23:  Computing model component .: R000104_00001_J1843-0403
+2023-07-20T00:24:33:  Computing model component .: R000103_00006_J1842-0507
+2023-07-20T00:24:43:  Computing model component .: R000103_00003_J1841-0533
+2023-07-20T00:24:49:  Computing model component .: R000103_00005_J1839-0557
+2023-07-20T00:24:59:  Computing model component .: R000103_00010_J1839-0535
+2023-07-20T00:25:09:  Computing model component .: R000103_00009_J1838-0621
+2023-07-20T00:25:20:  Computing model component .: R000102_00008_J1838-0655
+2023-07-20T00:25:25:  Computing model component .: R000102_00009_J1836-0656
+2023-07-20T00:25:35:  Computing model component .: R000102_00004_J1837-0656
+2023-07-20T00:25:41:  Computing model component .: R000102_00013_J1836-0635
+2023-07-20T00:25:49:  Computing model component .: R000102_00001_J1837-0636
+2023-07-20T00:26:00:  Computing model component .: R000102_00011_J1838-0621
+2023-07-20T00:26:10:  Computing model component .: Src006
+2023-07-20T00:26:18:  Computing model component .: IEM
+2023-07-20T00:26:27:  Computing model component .: BackgroundModel
+2023-07-20T00:26:33: Filling residual table
+2023-07-20T00:26:33: 
+2023-07-20T00:26:33: +================+
+2023-07-20T00:26:33: | Save residuals |
+2023-07-20T00:26:33: +================+
+2023-07-20T00:26:33:  Residuals file ............: /home/idatauser/burtovoi/battlestar/CTA/CTA_GPS/analysis/PSR_J1838-0537/resspec_SIGNIFICANCE_0.03_100_FOV_4.0_binsz_0.02_GAL.fits
+2023-07-20T00:26:35: 
+2023-07-20T00:26:35: Application "csresspec" terminated after 271 wall clock seconds, consuming 300.945 seconds of CPU time.
